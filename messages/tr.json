@@ -1,0 +1,299 @@
+{
+    "Navbar": {
+        "about": "Hakkımızda",
+        "projects": "Projeler",
+        "blog": "Blog",
+        "team": "Ekibimiz",
+        "contact": "İletişim",
+        "getStarted": "Başlayın"
+    },
+    "Hero": {
+        "badge": "Ekip Mükemmeliyetinin Geleceği",
+        "title1": "Yenilik Yapın.",
+        "title2": "İnşa Edin.",
+        "title3": "Nusrat ile Ölçeklendirin.",
+        "description": "Nusrat, üst düzey profesyonellerden oluşan bir ekosistemdir. Karmaşık teknolojiyi işletmeniz için kolay va verimli çözümlere dönüştürüyoruz.",
+        "ctaPrimary": "İşbirliğine Başlayın",
+        "ctaSecondary": "Ekibimiz"
+    },
+    "Stats": {
+        "exp": "Yıllık Deneyim",
+        "projects": "Başarılı Projeler",
+        "members": "Seçkin Profesyoneller",
+        "partners": "Küresel Ortaklar"
+    },
+    "Common": {
+        "readMore": "Devamını Oku",
+        "loading": "Yükleniyor...",
+        "search": "Ara...",
+        "all": "Hepsi",
+        "back": "Geri",
+        "dashboard": "Kontrol Paneli",
+        "aiAssistant": "AI Asistanı",
+        "projects": "Projeler",
+        "team": "Ekip",
+        "settings": "Ayarlar",
+        "logout": "Çıkış Yap",
+        "viewAll": "Tümünü Görüntüle",
+        "save": "Kaydet",
+        "cancel": "İptal Et",
+        "blog": "Blog Yazıları",
+        "seo": "SEO Ayarları"
+    },
+    "Admin": {
+        "title": "Kontrol Paneli Genel Bakış",
+        "welcome": "Tekrar hoş geldiniz. Nusrat'ta bugün neler olduğuna bir göz atın.",
+        "stats": {
+            "projects": "Toplam Proje",
+            "team": "Aktif Ekip",
+            "inquiries": "Sorgular",
+            "growth": "Büyüme"
+        },
+        "activity": {
+            "title": "Son Faaliyetler",
+            "projectApproved": "\"AI Finance\" adlı yeni proje onaylandı.",
+            "hoursAgo": "{count} saat önce"
+        },
+        "aiTips": {
+            "title": "AI İçerik İpuçları",
+            "strategyTitle": "Strateji Artışı",
+            "strategyDesc": "\"AI Altyapısı\" hakkındaki blog yazılarınız trend oluyor. \"LLM Operasyonları\" hakkında devam yazısı oluşturmayı düşünün.",
+            "seoTitle": "SEO İçgörüsü",
+            "seoDesc": "Tıklama oranını %15'e kadar artırmak için \"Nusrat Dashboard\" projesinin meta açıklamasını güncelleyin."
+        }
+    },
+    "AIAssistant": {
+        "title": "AI Profesyonel Asistan",
+        "description": "Seçkin AI motorumuzla içerik oluşturun, SEO'yu optimize edin ve tercüme edin.",
+        "tabs": {
+            "content": "İçerik Oluşturucu",
+            "seo": "SEO Optimizatörü",
+            "translate": "Çeviri"
+        },
+        "inputLabels": {
+            "content": "Ne yazmalıyım?",
+            "seo": "Optimize Edilecek URL veya İçerik",
+            "translate": "Çevrilecek Metin"
+        },
+        "placeholders": {
+            "content": "Örn: Yeni AI entegrasyon stratejimiz hakkında profesyonel bir blog yazısı yazın...",
+            "seo": "Örn: https://nusrat.team/projects/ai-finance",
+            "translate": "Metni buraya girin..."
+        },
+        "tone": "Ton",
+        "toneValue": "Profesyonel ve Seçkin",
+        "run": "AI Motorunu Çalıştır",
+        "running": "AI düşünüyor...",
+        "templates": "Hızlı Şablonlar",
+        "response": "AI Tarafından Oluşturulan Yanıt",
+        "emptyResponse": "AI yanıtı burada görünecektir...",
+        "tpl_project": "Yeni Proje Duyurusu",
+        "tpl_blog": "Uzman Görüşü Blog Yazısı",
+        "tpl_seo": "Meta Tag Oluşturma"
+    },
+    "About": {
+        "title": "Yolculuğumuz ve Misyonumuz",
+        "description": "Tutkuyla yönlendirilen, mükemmellikle tanımlanan. Nusrat'ın arkasındaki hikayeyi keşfedin.",
+        "missionTitle": "Misyonumuz",
+        "missionDesc": "Karmaşık teknolojiler ve yenilikçi çözümler aracılığıyla işletmeleri ve profesyonelleri gerçek değer ve sürdürülebilir büyüme elde etmeleri için desteklemek.",
+        "visionTitle": "Vizyonumuz",
+        "visionDesc": "Dürüstlüğü ve teknik uzmanlığıyla tanınan, ekip mükemmelliği ve dijital dönüşüm konusunda en güvenilir küresel ortak olmak.",
+        "valuesTitle": "Temel Değerlerimiz",
+        "integrityTitle": "Dürüstlük",
+        "integrityDesc": "Her işbirliğinde dürüstlük ve şeffaflık.",
+        "innovationTitle": "İnovasyon",
+        "innovationDesc": "Sürekli olarak olasılıkların sınırlarını zorlamak.",
+        "excellenceTitle": "Mükemmellik",
+        "excellenceDesc": "Her kod satırında mükemmelliğe odaklanmak.",
+        "milestonesTitle": "Mükemmellik Kilometre Taşları",
+        "milestonesSub": "Büyüme ve başarılarımızın kronolojik özeti",
+        "timeline": {
+            "2018": {
+                "title": "Başlangıç",
+                "description": "Nusrat, Taşkent'te küçük bir hırslı geliştiriciler grubu olarak kuruldu."
+            },
+            "2020": {
+                "title": "Ölçek büyütme",
+                "description": "Yapay zeka ve bulut mimarisi konusundaki uzmanlığımızı genişlettik ve ilk uluslararası müşterilerimize hizmet verdik."
+            },
+            "2022": {
+                "title": "Mükemmeliyet Merkezi",
+                "description": "Temel değerlerimizi belirledik ve daha büyük bir işbirliği alanına taşındık."
+            },
+            "2024": {
+                "title": "Küresel Etki",
+                "description": "Dünya çapında 150'den fazla projeyi %98 müşteri memnuniyeti ile başarıyla tamamladık."
+            },
+            "2026": {
+                "title": "Vizyon 2026",
+                "description": "Bölgesel dijital dönüşüme liderlik etmeyi ve yapay zekayı her profesyonel iş akışına entegre etmeyi hedefliyoruz."
+            }
+        }
+    },
+    "Projects": {
+        "title": "Portfolyo",
+        "description": "En son çalışmalarımızı ve yenilikçi atılımlarımızı inceleyin.",
+        "viewDetails": "Detayları Görüntüle",
+        "caseStudy": "Vaka Çalışması",
+        "categories": {
+            "all": "Hepsi",
+            "ai": "AI Çözümleri",
+            "fintech": "Fintek",
+            "enterprise": "Kurumsal",
+            "marketing": "Pazarlama"
+        },
+        "data": {
+            "overview": "Genel Bakış",
+            "highlights": "Önemli Başarılar",
+            "demo": "Canlı Demo",
+            "caseStudyPdf": "Vaka Çalışması PDF",
+            "data": {
+                "1": {
+                    "title": "EcoSphere AI",
+                    "category": "AI Çözümleri",
+                    "description": "EcoSphere AI, belediye yönetimlerinin kentsel çevre sağlığını gerçek zamanlı olarak izlemesine ve optimize etmesine yardımcı olmak için tasarlanmış devrim niteliğinde bir platformdur. Bir sensör ağı ve gelişmiş makine öğrenimi modelleri kullanan sistem, hava kalitesi dalgalanmalarını tahmin eder ve kirlilik zirvelerini azaltmak için proaktif önlemler önerir.",
+                    "status": "Tamamlandı",
+                    "highlights": [
+                        "Pilot şehirlerde kentsel enerji maliyetlerini %15 azalttı.",
+                        "Şebeke genelinde 10.000'den fazla IoT sensörüyle entegre edildi.",
+                        "Şehir yetkilileri için gerçek zamanlı veri görselleştirme paneli.",
+                        "%94 doğrulukla gelişmiş tahmine dayalı modelleme."
+                    ]
+                },
+                "2": {
+                    "title": "GlobalPay Next",
+                    "category": "Fintek",
+                    "description": "GlobalPay Next, uluslararası finans piyasaları için tasarlanmış, sınırlar arası bir ödeme ağ geçididir. İşletmelere birden fazla para biriminde gerçek zamanlı mutabakat, düşük işlem ücretleri ve en yüksek düzeyde güvenlik sunar. Sistem, karmaşık bankacılık altyapılarını entegrasyonu kolay bir API ile birbirine bağlar.",
+                    "status": "Devam Ediyor",
+                    "highlights": [
+                        "Saniyede 5000+ işlemi işleme kapasitesi.",
+                        "30+ ana fiat ve dijital para birimini destekler.",
+                        "PCI-DSS Seviye 1 sertifikalı güvenlik protokolleri.",
+                        "20+ uluslararası banka ile doğrudan entegrasyon."
+                    ]
+                },
+                "3": {
+                    "title": "Nusrat Dashboard",
+                    "category": "Kurumsal",
+                    "description": "Nusrat ekibi için özel olarak oluşturulan bu panel; proje yönetimi, kaynak tahsisi ve ekip büyüme takibi için merkezi merkez görevi görür. Dahili iş akışlarını otomatikleştirmek ve verimliliği optimize etmek için yapay zeka odaklı içgörülerden yararlanır.",
+                    "status": "Tamamlandı",
+                    "highlights": [
+                        "Proje teslim sürelerini ortalama %20 hızlandırdı.",
+                        "Otomatik kaynak tahsisi ve KPI takibi.",
+                        "Gerçek zamanlı finansal raporlama ve analitik.",
+                        "Ekip işbirliği için entegre araçlar."
+                    ]
+                }
+            }
+        }
+    },
+    "Team": {
+        "title": "Seçkin Ekibimizle Tanışın",
+        "description": "Nusrat'ın başarısının arkasındaki parlak zihinler. Özenle seçilmiş, tutkuyla çalışan profesyoneller.",
+        "photo": "Fotoğraf",
+        "members": {
+            "alex": {
+                "role": "Baş Mimar",
+                "bio": "Dağıtık sistemlerde 10 yıldan fazla deneyime sahip vizyoner teknik lider."
+            },
+            "sarah": {
+                "role": "Yapay Zeka Uzmanı",
+                "bio": "Kurumsal düzeyde üretken yapay zekaya odaklanmış makine öğrenimi uzmanı."
+            },
+            "michael": {
+                "role": "Ürün Tasarımcısı",
+                "bio": "Sezgisel kullanıcı deneyimleri yaratan tasarım odaklı düşünme savunucusu."
+            },
+            "elena": {
+                "role": "Büyüme Yöneticisi",
+                "bio": "Ekiplerin küresel ölçekte büyümesine yardımcı olan stratejik büyüme uzmanı."
+            }
+        }
+    },
+    "Blog": {
+        "title": "Haberler ve İçgörüler",
+        "description": "Seçkin profesyonel ekosistemimizden en son düşünceler ve haberler.",
+        "categories": {
+            "all": "Hepsi",
+            "tech": "AI ve Teknoloji",
+            "leadership": "Liderlik",
+            "marketing": "Pazarlama",
+            "case": "Vaka Çalışmaları"
+        },
+        "data": {
+            "1": {
+                "title": "Kurumsal Sistemlerde Yapay Zekanın Geleceği",
+                "excerpt": "Üretken yapay zekanın seçkin ekiplerin yazılım altyapısını kurma ve ölçeklendirme biçimini nasıl yeniden şekillendirdiği.",
+                "category": "AI ve Teknoloji",
+                "date": "10 Ocak, 2026",
+                "author": "Sarah Chen"
+            },
+            "2": {
+                "title": "Dağıtık Ekipleri Küresel Ölçekte Büyütmek",
+                "excerpt": "3 kıtada yüksek performanslı uzak mühendislik kümelerini yönetmekten çıkarılan dersler.",
+                "category": "Liderlik",
+                "date": "08 Ocak, 2026",
+                "author": "Alex Johnson"
+            },
+            "3": {
+                "title": "2026 için SEO Stratejileri",
+                "excerpt": "Geleneksel anahtar kelime optimizasyonunun neden öldüğü ve semantik otoritenin markanız için ne anlama geldiği.",
+                "category": "Pazarlama",
+                "date": "05 Ocak, 2026",
+                "author": "Elena Petrova"
+            }
+        }
+    },
+    "Contact": {
+        "title": "Birlikte İnşa Edelim",
+        "description": "Aklınızda bir proje mi var? Ya da elit ekibimize katılmak mı istiyorsunuz? Bize ulaşın ve konuşmaya başlayalım.",
+        "infoTitle": "İletişim Bilgileri",
+        "email": "Bize Yazın",
+        "call": "Bizi Arayın",
+        "address": "Genel Merkezimiz",
+        "newsletterTitle": "Bültenimize Katılın",
+        "newsletterDesc": "En son içgörüleri ve ekip güncellemelerini doğrudan gelen kutunuza alın.",
+        "join": "Katıl",
+        "formTitle": "Mesaj Gönder",
+        "firstName": "Ad",
+        "lastName": "Soyad",
+        "emailLabel": "E-posta Adresi",
+        "subject": "Konu",
+        "message": "Mesaj",
+        "send": "Mesaj Gönder",
+        "sending": "Gönderiliyor...",
+        "successTitle": "Mesaj Alındı!",
+        "successDesc": "Nusrat'a ulaştığınız için teşekkür ederiz. Ekibimiz 24 saat içinde size geri dönecektir.",
+        "another": "Başka Bir Mesaj Gönder",
+        "subjects": {
+            "project": "Yeni Proje Sorgusu",
+            "collab": "İşbirliği Daveti",
+            "join": "Ekibe Katıl",
+            "other": "Diğer"
+        }
+    },
+    "Home": {
+        "empowerTitle": "İnovasyon Yoluyla Profesyonelleri Güçlendiriyoruz",
+        "empowerDesc": "Nusrat sadece bir ekip değil; mükemmellik için tasarlanmış bir ekosistemdir. Müşterilerimiz için benzersiz sonuçlar sunmak için derin teknik uzmanlığı stratejik vizyonla birleştiriyoruz.",
+        "visionQuote": "\"Misyonumuz, teknolojinin ve profesyonel uzmanlığın dünyanın en karmaşık zorluklarını çözmek için birleştiği bir gelecek yaratmaktır.\"",
+        "visionCite": "— Nusrat Vizyon 2026",
+        "services": {
+            "scalable": "Ölçeklenebilir Sistemler",
+            "ai": "Yapay Zeka Çözümleri",
+            "growth": "Uzman Büyümesi",
+            "seo": "SEO Uzmanlığı"
+        }
+    },
+    "Footer": {
+        "mission": "Gelecek nesil profesyonel mükemmellik için modern çözümler inşa ediyoruz. İnovasyon ve ölçeklendirme yolculuğumuzda bize katılın.",
+        "quickLinks": "Hızlı Bağlantılar",
+        "links": {
+            "about": "Hakkımızda",
+            "projects": "Portfolyo",
+            "blog": "Haberler ve Blog",
+            "contact": "İletişim"
+        },
+        "connect": "Bağlantı Kur",
+        "rights": "Tüm hakları saklıdır."
+    }
+}

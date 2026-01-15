@@ -1,0 +1,299 @@
+{
+    "Navbar": {
+        "about": "Haqqımızda",
+        "projects": "Layihələr",
+        "blog": "Xəbərlər",
+        "team": "Komandamız",
+        "contact": "Əlaqə",
+        "getStarted": "Başlayın"
+    },
+    "Hero": {
+        "badge": "Komanda Mükəmməlliyinin Gələcəyi",
+        "title1": "İnnovasiya.",
+        "title2": "Yaradın.",
+        "title3": "Nusrat ilə Genişlənin.",
+        "description": "Nusrat üst səviyyə peşəkarlardan ibarət ekosistemdir. Biz mürəkkəb texnologiyanı biznesiniz üçün asan və səmərəli həllərə çeviririk.",
+        "ctaPrimary": "Əməkdaşlığa Başlayın",
+        "ctaSecondary": "Komandamız"
+    },
+    "Stats": {
+        "exp": "İllik Təcrübə",
+        "projects": "Uğurlu Layihələr",
+        "members": "Elite Peşəkarlar",
+        "partners": "Qlobal Partnyorlar"
+    },
+    "Common": {
+        "readMore": "Daha çox",
+        "loading": "Yüklənir...",
+        "search": "Axtar...",
+        "all": "Hamısı",
+        "back": "Geri",
+        "dashboard": "İdarəetmə Paneli",
+        "aiAssistant": "Sİ Köməkçisi",
+        "projects": "Layihələr",
+        "team": "Komanda",
+        "settings": "Parametrlər",
+        "logout": "Çıxış",
+        "viewAll": "Hamısına Bax",
+        "save": "Yadda Saxla",
+        "cancel": "Ləğv Et",
+        "blog": "Bloq Yazıları",
+        "seo": "SEO Parametrləri"
+    },
+    "Admin": {
+        "title": "İdarəetmə Panelinə Baxış",
+        "welcome": "Yenidən xoş gəldiniz. Nusrat-da bu gün nə baş verdiyinə baxın.",
+        "stats": {
+            "projects": "Ümumi Layihələr",
+            "team": "Aktiv Komanda",
+            "inquiries": "Sorğular",
+            "growth": "İnkişaf"
+        },
+        "activity": {
+            "title": "Son Fəaliyyətlər",
+            "projectApproved": "\"AI Finance\" adlı yeni layihə təsdiqləndi.",
+            "hoursAgo": "{count} saat əvvəl"
+        },
+        "aiTips": {
+            "title": "Sİ Məzmun Məsləhətləri",
+            "strategyTitle": "Strateji Artım",
+            "strategyDesc": "\"Sİ İnfrastrukturu\" haqqında bloq yazılarınız trenddədir. \"LLM Əməliyyatları\" haqqında davam yazısı hazırlamağı düşünün.",
+            "seoTitle": "SEO İnsaytı",
+            "seoDesc": "Klikləmə dərəcəsini (CTR) 15%-dək artırmaq üçün \"Nusrat Dashboard\" layihəsininin meta təsvirini yeniləyin."
+        }
+    },
+    "AIAssistant": {
+        "title": "Sİ Peşəkar Köməkçisi",
+        "description": "Elit Sİ mühərrikimizlə məzmun yaradın, SEO-nu optimallaşdırın və tərcümə edin.",
+        "tabs": {
+            "content": "Məzmun Generatoru",
+            "seo": "SEO Optimizatoru",
+            "translate": "Tərcümə"
+        },
+        "inputLabels": {
+            "content": "Nə yazmalıyam?",
+            "seo": "Optimallaşdırılacaq URL və ya Məzmun",
+            "translate": "Tərcümə ediləcək mətn"
+        },
+        "placeholders": {
+            "content": "Məs: Yeni Sİ inteqrasiya strategiyamız haqqında peşəkar bloq yazısı yazın...",
+            "seo": "Məs: https://nusrat.team/projects/ai-finance",
+            "translate": "Mətni bura daxil edin..."
+        },
+        "tone": "Ton",
+        "toneValue": "Peşəkar və Elit",
+        "run": "Sİ Mühərrikini İşə Sal",
+        "running": "Sİ düşünür...",
+        "templates": "Sürətli Şablonlar",
+        "response": "Sİ tərəfindən yaradılan cavab",
+        "emptyResponse": "Sİ cavabı burada görünəcək...",
+        "tpl_project": "Yeni Layihə Elanı",
+        "tpl_blog": "Ekspert Rəyi Bloq Yazısı",
+        "tpl_seo": "Meta Taq Yaradılması"
+    },
+    "About": {
+        "title": "Yolumuz və Missiyamız",
+        "description": "Ehtirasla başladı, mükəmməlliklə formalaşdı. Nusrat-ın arxasındakı hekayəni kəşf edin.",
+        "missionTitle": "Missiyamız",
+        "missionDesc": "Mürəkkəb texnologiyalar və innovativ həllər vasitəsilə biznesləri və peşəkarları real dəyər və davamlı inkişaf əldə etmələri üçün dəstəkləmək.",
+        "visionTitle": "Baxışımız",
+        "visionDesc": "Dürüstlüyü və texniki ustalığı ilə tanınan, komanda mükəmməlliyi və rəqəmsal transformasiya üzrə ən etibarlı qlobal tərəfdaş olmaq.",
+        "valuesTitle": "Əsas Dəyərlərimiz",
+        "integrityTitle": "Dürüstlük",
+        "integrityDesc": "Hər bir əməkdaşlıqda dürüstlük və şəffaflıq.",
+        "innovationTitle": "İnnovasiya",
+        "innovationDesc": "Daim imkanların sərhədlərini genişləndirmək.",
+        "excellenceTitle": "Mükəmməllik",
+        "excellenceDesc": "Hər bir kod sətrində mükəmməlliyə nail olmaq.",
+        "milestonesTitle": "Mükəmməllik Mərhələləri",
+        "milestonesSub": "İnkişaf ve nailiyyətlərimizin xronologiyası",
+        "timeline": {
+            "2018": {
+                "title": "Başlanğıc",
+                "description": "Nusrat Daşkənddə kiçik bir ambisiyalı tərtibatçılar qrupu kimi qurulub."
+            },
+            "2020": {
+                "title": "Genişlənmə",
+                "description": "Süni intellekt və bulud arxitekturası üzrə təcrübəmizi artırdıq we ilk beynəlxalq müştərilərimizə xidmət göstərdik."
+            },
+            "2022": {
+                "title": "Mükəmməllik mərkəzi",
+                "description": "Əsas dəyərlərimizi təyin etdik və daha böyük əməkdaşlıq sahəsinə köçdük."
+            },
+            "2024": {
+                "title": "Qlobal təsir",
+                "description": "Dünya daxilində 150-dən çox layihəni 98% müştəri məmnuniyyəti ilə uğurla tamamladıq."
+            },
+            "2026": {
+                "title": "Nusrat Vizyon 2026",
+                "description": "Regional rəqəmsal transformasiyada liderlik etməyi və hər bir peşəkar iş prosesinə Sİ-ni inteqrasiya etməyi hədəfləyirik."
+            }
+        }
+    },
+    "Projects": {
+        "title": "Portfolyo",
+        "description": "Son işlərimiz və innovativ nailiyyətlərimizlə tanış olun.",
+        "viewDetails": "Detallara Bax",
+        "caseStudy": "Uğur Hekayəsi",
+        "categories": {
+            "all": "Hamısı",
+            "ai": "Sİ Həlləri",
+            "fintech": "Fintex",
+            "enterprise": "Korporativ",
+            "marketing": "Marketinq"
+        },
+        "data": {
+            "overview": "Ümumi Baxış",
+            "highlights": "Əsas Nailiyyətlər",
+            "demo": "Canlı Demo",
+            "caseStudyPdf": "Uğur Hekayəsi PDF",
+            "data": {
+                "1": {
+                    "title": "EcoSphere AI",
+                    "category": "Sİ Həlləri",
+                    "description": "EcoSphere AI bələdiyyə hökumətlərinə real vaxt rejimində şəhər ətraf mühitinin vəziyyətini izləməyə və optimallaşdırmağa kömək edən inqilabi platformadır. Sensorlar şəbəkəsi və qabaqcıl maşın öyrənmə modellərindən istifadə edərək, sistem hava keyfiyyəti dalğalanmalarını proqnozlaşdırır və çirklənmənin ən yüksək həddini azaltmaq üçün proaktiv tədbirlər tövsiyə edir.",
+                    "status": "Tamamlanıb",
+                    "highlights": [
+                        "Pilot şəhərlərdə şəhər enerji xərclərini 15% azaltdı.",
+                        "Şəbəkəyə 10,000-dən çox IoT sensoru inteqrasiya edilib.",
+                        "Şəhər rəsmiləri üçün real vaxt rejimində maşın görüntüləmə paneli.",
+                        "94% dəqiqliklə qabaqcıl proqnozlaşdırıcı modelləşdirmə."
+                    ]
+                },
+                "2": {
+                    "title": "GlobalPay Next",
+                    "category": "Fintex",
+                    "description": "GlobalPay Next beynəlxalq maliyyə bazarları üçün nəzərdə tutulmuş transssərhəd ödəniş şlüzudur. Bizneslərə bir neçə valyutada real vaxt rejimində hesablaşma, aşağı komissiya dərəceleri və ən yüksək təhlükəsizlik səviyyəsini təklif edir. Sistem mürəkkəb bank infrastrukturlarını asan inteqrasiya olunan APİ ilə birləşdirir.",
+                    "status": "Davam Edir",
+                    "highlights": [
+                        "Saniyədə 5000-dən çox əməliyyatı emal etmək imkanı.",
+                        "30-dan çox əsas fiat və rəqəmsal valyutaları dəstəkləyir.",
+                        "PCI-DSS Level 1 sertifikatlı təhlükəsizlik protokolları.",
+                        "20-dən çox beynəlxalq bankla birbaşa inteqrasiya."
+                    ]
+                },
+                "3": {
+                    "title": "Nusrat Dashboard",
+                    "category": "Korporativ",
+                    "description": "Nusrat komandası üçün xüsusi hazırlanmış bu panel layihələrin idarə edilməsi, resursların bölüşdürülməsi və komandanın inkişafının izlənilməsi üçün mərkəz rolunu oynayır. Daxili prosesləri avtomatlaşdırmaq və səmərəliliyi optimallaşdırmaq üçün Sİ əsaslı insaytlardan istifadə edir.",
+                    "status": "Tamamlanıb",
+                    "highlights": [
+                        "Layihələrin çatdırılma vaxtını orta hesabla 20% sürətləndirdi.",
+                        "Avtomatlaşdırılmış resurs bölgüsü va KPİ-lərin izlənilməsi.",
+                        "Real vaxt rejimində maliyyə hesabatları və analitika.",
+                        "Komanda əməkdaşlığı üçün inteqrasiya olunmuş alətlər."
+                    ]
+                }
+            }
+        }
+    },
+    "Team": {
+        "title": "Elit Peşəkarlarla Tanış Olun",
+        "description": "Nusrat-ın uğurunun arxasındakı parlaq zəkalar. Xüsusi seçilmiş, ehtirasla çalışan mütəxəssislər.",
+        "photo": "Şəkil",
+        "members": {
+            "alex": {
+                "role": "Baş Memar",
+                "bio": "Paylanmış sistemlər üzrə 10 ildən çox təcrübəyə sahip vizyoner texniki lider."
+            },
+            "sarah": {
+                "role": "Sİ Mütəxəssisi",
+                "bio": "Korporativ səviyyəli generativ Sİ üzrə ixtisaslaşmış maşın öyrənmə eksperti."
+            },
+            "michael": {
+                "role": "Məhsul Dizayneri",
+                "bio": "İntuitiv istifadəçi təcrübələri yaradan dizayn-təfəkkür tərəfdarı."
+            },
+            "elena": {
+                "role": "İnkişaf Meneceri",
+                "bio": "Komandaların qlobal miqyasda inkişafına kömək edən strateji inkişaf eksperti."
+            }
+        }
+    },
+    "Blog": {
+        "title": "Xəbərlər və İnsaytlar",
+        "description": "Elit peşəkar ekosistemimizdən son düşüncələr və xəbərlər.",
+        "categories": {
+            "all": "Hamısı",
+            "tech": "Sİ və Texnologiya",
+            "leadership": "Liderlik",
+            "marketing": "Marketinq",
+            "case": "Uğur Hekayələri"
+        },
+        "data": {
+            "1": {
+                "title": "Korporativ Sistemlərdə Sİ-nin Gələcəyi",
+                "excerpt": "Generativ Sİ elit komandaların proqram təminatı infrastrukturunu qurma və genişləndirmə yollarını necə dəyişir.",
+                "category": "Sİ va Texnologiya",
+                "date": "10 Yanvar, 2026",
+                "author": "Sarah Chen"
+            },
+            "2": {
+                "title": "Paylanmış Komandaların Qlobal Miqyasda Genişləndirilməsi",
+                "excerpt": "3 qitədə yüksək səmərəli uzaqdan mühəndislik klasterlərini idarə edərkən əldə edilən təcrübələr.",
+                "category": "Liderlik",
+                "date": "08 Yanvar, 2026",
+                "author": "Alex Johnson"
+            },
+            "3": {
+                "title": "2026-cı il üçün SEO Strategiyaları",
+                "excerpt": "Nə üçün ənənəvi açar söz optimallaşdırılması artıq işləmir və semantik nüfuz nə deməkdir.",
+                "category": "Marketinq",
+                "date": "05 Yanvar, 2026",
+                "author": "Elena Petrova"
+            }
+        }
+    },
+    "Contact": {
+        "title": "Gəlin, Birlikdə Yaradaq",
+        "description": "Ağlınızda bir layihə var? Yoxsa elita komandamıza qoşulmaq istəyirsiniz? Bizimlə əlaqə saxlayın.",
+        "infoTitle": "Əlaqə Məlumatları",
+        "email": "Bizə Yazın",
+        "call": "Bizə Zəng Edin",
+        "address": "Baş Ofisimiz",
+        "newsletterTitle": "Xəbər bülletenimizə qoşulun",
+        "newsletterDesc": "Ən son xəbərləri və komanda yeniliklərini birbaşa e-poçtunuzda alın.",
+        "join": "Qoşul",
+        "formTitle": "Mesaj Göndərin",
+        "firstName": "Adı",
+        "lastName": "Soyadı",
+        "emailLabel": "E-poçt ünvanı",
+        "subject": "Mövzu",
+        "message": "Mesaj",
+        "send": "Mesajı Göndər",
+        "sending": "Göndərilir...",
+        "successTitle": "Mesaj Qəbul Edildi!",
+        "successDesc": "Nusrat ilə əlaqə saxladığınız üçün təşəkkür edirik. Komandamız 24 saat ərzində sizə cavab verəcək.",
+        "another": "Başqa bir mesaj göndər",
+        "subjects": {
+            "project": "Yeni layihə sorğusu",
+            "collab": "Əməkdaşlıq dəvəti",
+            "join": "Komandaya qoşulmaq",
+            "other": "Başqa"
+        }
+    },
+    "Home": {
+        "empowerTitle": "İnnovasiyalar Vasitəsilə Peşəkarları Gücləndirmək",
+        "empowerDesc": "Nusrat sadəcə bir komanda deyil; bu, mükəmməllik üçün nəzərdə tutulmuş bir ekosistemdir. Müştərilərimiz üçün misilsiz nəticələr təqdim etmək üçün dərin texniki təcrübəni strateji baxışla birləşdiririk.",
+        "visionQuote": "\"Missiyamız, texnologiya və peşəkar təcrübənin dünyanın ən mürəkkəb çətinliklərini həll etmək üçün birləşdiyi bir gələcək yaratmaqdır.\"",
+        "visionCite": "— Nusrat Vizyon 2026",
+        "services": {
+            "scalable": "Genişləndirilə bilən sistemlər",
+            "ai": "Süni intellekt həlləri",
+            "growth": "Ekspert inkişafı",
+            "seo": "SEO peşəkarlığı"
+        }
+    },
+    "Footer": {
+        "mission": "Gələcək nəsil peşəkar mükəmməllik üçün müasir həllər inşa edirik. İnnovasiya və genişlənmə yolumuzda bizə qoşulun.",
+        "quickLinks": "Sürətli Keçidlər",
+        "links": {
+            "about": "Haqqımızda",
+            "projects": "Portfolyo",
+            "blog": "Xəbərlər və Bloq",
+            "contact": "Əlaqə"
+        },
+        "connect": "Əlaqə saxlayın",
+        "rights": "Bütün hüquqlar qorunur."
+    }
+}

@@ -1,0 +1,299 @@
+{
+    "Navbar": {
+        "about": "Biz barada",
+        "projects": "Taslamalar",
+        "blog": "Blog",
+        "team": "Toparymyz",
+        "contact": "Habarlaşmak",
+        "getStarted": "Başla"
+    },
+    "Hero": {
+        "badge": "Topar kämilleşmeginiň geljegi",
+        "title1": "Innowasiýa.",
+        "title2": "Dörediň.",
+        "title3": "Nusrat bilen giňeliň.",
+        "description": "Nusrat - ýokary derejeli hünärmenleriň ekoulgamy. Biz çylşyrymly tehnologiýalary siziň biznesiňiz üçin aňsat we netijeli çözgütlere öwürýäris.",
+        "ctaPrimary": "Hyzmatdaşlygy başlamak",
+        "ctaSecondary": "Biziň topar"
+    },
+    "Stats": {
+        "exp": "Ýyllyk tejribe",
+        "projects": "Şowly taslamalar",
+        "members": "Elita hünärmenler",
+        "partners": "Ählumumy hyzmatdaşlar"
+    },
+    "Common": {
+        "readMore": "Dowamy",
+        "loading": "Ýüklenýär...",
+        "search": "Gözleg...",
+        "all": "Ählisi",
+        "back": "Yza",
+        "dashboard": "Dolandyryş paneli",
+        "aiAssistant": "Sİ kömekçisi",
+        "projects": "Taslamalar",
+        "team": "Topar",
+        "settings": "Sazlamalar",
+        "logout": "Çykmak",
+        "viewAll": "Ählisini görkez",
+        "save": "Saklamak",
+        "cancel": "Yza al",
+        "blog": "Blog ýazgylary",
+        "seo": "SEO sazlamalary"
+    },
+    "Admin": {
+        "title": "Dolandyryş paneline syn",
+        "welcome": "Hoş geldiňiz. Bu gün Nusrat-da nämeler bolup geçýändigini görüň.",
+        "stats": {
+            "projects": "Jemi taslamalar",
+            "team": "Aktiw topar",
+            "inquiries": "Soraglar",
+            "growth": "Ösüş"
+        },
+        "activity": {
+            "title": "Soňky hereketler",
+            "projectApproved": "Täze \"AI Finance\" taslamasy tassyklanyldy.",
+            "hoursAgo": "{count} sagat öň"
+        },
+        "aiTips": {
+            "title": "Sİ mazmun maslahatlary",
+            "strategyTitle": "Strategiki ösüş",
+            "strategyDesc": "\"Sİ infrastrukturasyny\" baradaky blog ýazgylaryňyz meşhur bolýar. \"LLM Operations\" barada dowamyny ýazmagy göz öňünde tutuň.",
+            "seoTitle": "SEO derňewi",
+            "seoDesc": "Klikleme derejesini (CTR) 15% -e çenli artdyrmak üçin \"Nusrat Dashboard\" taslamasynyň meta düşündirişini täzeläň."
+        }
+    },
+    "AIAssistant": {
+        "title": "Sİ professional kömekçisi",
+        "description": "Biziň elita Sİ dwigateliňiz bilen mazmun dörediň, SEO-ny optimallaşdyryň we terjime ediň.",
+        "tabs": {
+            "content": "Mazmun generatory",
+            "seo": "SEO optimizatory",
+            "translate": "Terjime"
+        },
+        "inputLabels": {
+            "content": "Näme barada ýazmaly?",
+            "seo": "Optimizasiýa üçin URL ýa-da mazmun",
+            "translate": "Terjime edilmeli tekst"
+        },
+        "placeholders": {
+            "content": "Mysal üçin: Täze Sİ integrasiýa strategiýamyz barada professional blog ýazgysyny ýazyň...",
+            "seo": "Mysal üçin: https://nusrat.team/projects/ai-finance",
+            "translate": "Teksti şu ýere giriziň..."
+        },
+        "tone": "Äheň",
+        "toneValue": "Professional we elita",
+        "run": "Sİ dwigatelini işe girizmek",
+        "running": "Sİ pikirlenýär...",
+        "templates": "Çalt şablonlar",
+        "response": "Sİ tarapyndan döredilen jogap",
+        "emptyResponse": "Sİ jogaby şu ýerde peýda bolar...",
+        "tpl_project": "Täze taslama habary",
+        "tpl_blog": "Ekspert blog ýazgysy",
+        "tpl_seo": "Meta-tegleri döretmek"
+    },
+    "About": {
+        "title": "Biziň ýolumyz we missiýamyz",
+        "description": "Hyjuw bilen başlanan, kämillik bilen kesgitlenen. Nusrat taryhyny açyň.",
+        "missionTitle": "Biziň missiýamyz",
+        "missionDesc": "Çylşyrymly tehnologiýalar we innowasion çözgütler arkaly biznesleri we hünärmenleri hakyky gymmata we durnukly ösüşe ýetmekleri üçin goldamak.",
+        "visionTitle": "Biziň garaýyşymyz",
+        "visionDesc": "Öz dogruçyllygy we tehniki ussatlygy bilen tanalýan, topar kämilligi we sanly transformasiýa boýunça iň ynamdar ählumumy hyzmatdaş bolmak.",
+        "valuesTitle": "Biziň gymmatlyklarymyz",
+        "integrityTitle": "Dogruçyllyk",
+        "integrityDesc": "Her bir hyzmatdaşlykda dogruçyllyk we aýdyňlyk.",
+        "innovationTitle": "Innowasiýa",
+        "innovationDesc": "Yzygiderli mümkinçilikleriň serhetlerini giňeltmek.",
+        "excellenceTitle": "Kämillik",
+        "excellenceDesc": "Her bir kod setirinde kämillige ymtylmak.",
+        "milestonesTitle": "Kämillik derejeleri",
+        "milestonesSub": "Biziň ösüşimiz we üstünliklerimiziň ýylýazgysy",
+        "timeline": {
+            "2018": {
+                "title": "Başlangyç",
+                "description": "Nusrat Daşkentde kiçiräk hünärmen topar hökmünde esaslandyryldy."
+            },
+            "2020": {
+                "title": "Giňelmek",
+                "description": "Süni intellekt we bulut arhitekturasy boýunça tejribämizi artdyrdyk we ilkinji halkara müşderilerimize hyzmat etdik."
+            },
+            "2022": {
+                "title": "Kämillik merkezi",
+                "description": "Esasy gymmatlyklarymyzy kesgitledik we has uly hyzmatdaşlyk meýdançasyna göçdük."
+            },
+            "2024": {
+                "title": "Ählumumy täsir",
+                "description": "Dünýä boýunça 150-den gowrak taslamany 98% müşderi kanagatlanmasy bilen üstünlikli tamamladyk."
+            },
+            "2026": {
+                "title": "Vision 2026",
+                "description": "Sebitleýin sanly transformasiýada öňdebaryjy bolmagy we Sİ-ni her bir professional iş amalyýetine ornaşdyrmagy maksat edinýäris."
+            }
+        }
+    },
+    "Projects": {
+        "title": "Portfolio",
+        "description": "Biziň soňky işlerimiz we innowasion üstünliklerimiz bilen tanyşyň.",
+        "viewDetails": "Dowamyny gör",
+        "caseStudy": "Üstünlik taryhy",
+        "categories": {
+            "all": "Ählisi",
+            "ai": "Sİ çözgütleri",
+            "fintech": "Finteh",
+            "enterprise": "Korporatiw",
+            "marketing": "Marketinq"
+        },
+        "data": {
+            "overview": "Umumy syn",
+            "highlights": "Esasy üstünlikler",
+            "demo": "Demo wersiýasy",
+            "caseStudyPdf": "Case Study (PDF)",
+            "data": {
+                "1": {
+                    "title": "EcoSphere AI",
+                    "category": "Sİ çözgütleri",
+                    "description": "EcoSphere AI - bu şäher häkimliklerine real wagt rejiminde daşky gurşawyň ýagdaýyna gözegçilik etmäge we optimallaşdyrmaga kömek edýän rewolýusion platforma. Sensorlar ulgamy we ösen machine learning modellerinden peýdalanyp, ulgam howanyň hiliniň üýtgemegini çaklaýar we hapalanmagyň iň ýokary nokatlaryny azaltmak boýunça proaktiw çäreleri maslahat berýär.",
+                    "status": "Tamamlandy",
+                    "highlights": [
+                        "Pilot şäherlerde şäher energiýa çykdajylary 15% azaldy.",
+                        "Ulgam boýunça 10 000-den gowrak IoT sensorlary bilen birleşdirilen.",
+                        "Şäher häkimleri üçin real wagt rejiminde maglumatlary wizualizasiýa paneli.",
+                        "94% takyklyk bilen ösen çaklama modelirlemesi."
+                    ]
+                },
+                "2": {
+                    "title": "GlobalPay Next",
+                    "category": "Finteh",
+                    "description": "GlobalPay Next - bu halkara maliýe bazarlary üçin niýetlenen halkara töleg şlýuzydyr. Ol bizneslere birnäçe walýutada real wagt rejiminde hasaplaşyk, pes komissiýa nyrhlary we iň ýokary howpsuzlyk derejesini hödürleýär. Ulgam çylşyrymly bank infrastrukturalaryny aňsat integrasiýa edilýän API bilen birleşdirýär.",
+                    "status": "Dowam edýär",
+                    "highlights": [
+                        "Bir sekuntda 5000-den gowrak tranzaksiýany dolandyrmak mümkinçiligi.",
+                        "30-dan gowrak esasy fiat we sanly walýutalary goldamak.",
+                        "PCI-DSS Level 1 kepilnamasyna eýe howpsuzlyk protokollary.",
+                        "20-den gowrak halkara banklary bilen göni integrasiýa."
+                    ]
+                },
+                "3": {
+                    "title": "Nusrat Dashboard",
+                    "category": "Korporatiw",
+                    "description": "Nusrat topary üçin ýörite işlenip düzülen bu panel taslamalary dolandyrmak, resurslary paýlamak we toparyň ösüşine gözegçilik etmek üçin merkez bolup hyzmat edýär. Ol içki amallary awtomatlaşdyrmak we netijeliligi ýokarlandyrmak üçin süni intellekt seljermelerinden peýdalanýar.",
+                    "status": "Tamamlandy",
+                    "highlights": [
+                        "Taslamalary tabşyrmak wagty ortaça 20% çaltlaşdy.",
+                        "Awtoatlaşdyrylan resurs paýlanyşy we KPI monitoringi.",
+                        "Real wagt rejiminde maliýe hasabatlary we seljermeleri.",
+                        "Toparyň hyzmatdaşlykda işlemegi üçin integrirlenen gurallar."
+                    ]
+                }
+            }
+        }
+    },
+    "Team": {
+        "title": "Elita hünärmenler bilen tanyşyň",
+        "description": "Nusrat üstünliginiň aňyrsyndaky ýagty zehinler. Ýörite saýlanan, hyjuw bilen işleýän hünärmenler.",
+        "photo": "Surat",
+        "members": {
+            "alex": {
+                "role": "Baş arhitektor",
+                "bio": "Paýlanylan ulgamlar boýunça 10 ýyllyk tejribesi bolan tehniki lider."
+            },
+            "sarah": {
+                "role": "Sİ hünärmeni",
+                "bio": "Korporatiw derejeli generatiw Sİ boýunça ýöriteleşen machine learning eksperti."
+            },
+            "michael": {
+                "role": "Önüm dizaýneri",
+                "bio": "Intuitiwin ulanyjy tejribelerini döredýän dizaýn-pikirlemesi ýatdaşy."
+            },
+            "elena": {
+                "role": "Ösüş menejeri",
+                "bio": "Toparlary ählumumy derejede giňeltmäge kömek edýän strategiki ösüş eksperti."
+            }
+        }
+    },
+    "Blog": {
+        "title": "Täzelikler we seljermeler",
+        "description": "Biziň professional ekoulgamymyzdan iň soňky pikirler we täzelikler.",
+        "categories": {
+            "all": "Ählisi",
+            "tech": "Sİ we Tehnologiýa",
+            "leadership": "Liderlik",
+            "marketing": "Marketing",
+            "case": "Üstünlikler"
+        },
+        "data": {
+            "1": {
+                "title": "Korporatiw ulgamlarda Sİ geljegi",
+                "excerpt": "Generatiw Sİ elita toparlarynyň programma üpjünçiligi infrastrukturasyny döretmek we giňeltmek usullaryny nähili üýtgedýär.",
+                "category": "Sİ we Tehnologiýa",
+                "date": "10-Ýanwar, 2026",
+                "author": "Sarah Chen"
+            },
+            "2": {
+                "title": "Paýlanylan toparlary ählumumy derejede giňeltmek",
+                "excerpt": "3 kontinentde ýokary netijeli uzakdaky inženerçilik klasterlerini dolandyrmakda alnan tejribeler.",
+                "category": "Liderlik",
+                "date": "08-Ýanwar, 2026",
+                "author": "Alex Johnson"
+            },
+            "3": {
+                "title": "2026-njy ýyl üçin SEO strategiýalary",
+                "excerpt": "Näme üçin adaty açar sözleri optimallaşdyrmak öz ähmiýetini ýitirdi we semantik ygtyýarlyk siziň brendiňiz üçin nämäni aňladýar.",
+                "category": "Marketing",
+                "date": "05-Ýanwar, 2026",
+                "author": "Elena Petrova"
+            }
+        }
+    },
+    "Contact": {
+        "title": "Bilelikde döredeliň",
+        "description": "Pikiriňizde taslama barmy? Ýa-da biziň elita toparymyza goşulmak isleýärsiňiz? Biz bilen habarlaşyň.",
+        "infoTitle": "Habarlaşmak üçin maglumatlar",
+        "email": "Biz bilen habarlaşyň",
+        "call": "Bize jaň ediň",
+        "address": "Biziň baş edaramyz",
+        "newsletterTitle": "Habar bültenimize ýazylyň",
+        "newsletterDesc": "Iň soňky täzelikleri we topar habarlaryny göni poçta gutuňyza alyň.",
+        "join": "Goşul",
+        "formTitle": "Habar iberiň",
+        "firstName": "Ady",
+        "lastName": "Familiýasy",
+        "emailLabel": "E-poçta salgysy",
+        "subject": "Tema",
+        "message": "Habar",
+        "send": "Habary ibermek",
+        "sending": "Iberilýär...",
+        "successTitle": "Habar kabul edildi!",
+        "successDesc": "Nusrat bilen habarlaşanyňyz üçün sag boluň. Biziň topar 24 sagadyň dowamynda size jogap berer.",
+        "another": "Başga habar ibermek",
+        "subjects": {
+            "project": "Täze taslama soragy",
+            "collab": "Hyzmatdaşlyk çakylygy",
+            "join": "Topara goşulmak",
+            "other": "Başga"
+        }
+    },
+    "Home": {
+        "empowerTitle": "Innowasiýalar arkaly hünärmenleriň mümkinçiliklerini giňeltmek",
+        "empowerDesc": "Nusrat diňe bir topar däl; bu kämillik üçin döredilen ekoulgamdyr. Biz müşderilerimiz üçin deňi-taýy bolmadyk netijeleri bermek üçin çuňňur tehniki tejribäni strategiki garaýyşlar bilen birleşdirýäris.",
+        "visionQuote": "\"Biziň missiýamyz - tehnologiýa we professional tejribäniň dünýädäki iň çylşyrymly meseleleri çözmek üçin birleşýän geljegini döretmekdir.\"",
+        "visionCite": "— Nusrat Vision 2026",
+        "services": {
+            "scalable": "Giňeldilýän ulgamlar",
+            "ai": "Süni intellekt çözgütleri",
+            "growth": "Ekspert ösüşi",
+            "seo": "SEO professionalizmi"
+        }
+    },
+    "Footer": {
+        "mission": "Indiki nesil professional kämilleşme üçin döwrebap çözgütleri gurýarys. Innowasiýalar we giňelme ýolumyzda bize goşuluň.",
+        "quickLinks": "Çalt baglanyşyklar",
+        "links": {
+            "about": "Biz barada",
+            "projects": "Portfolio",
+            "blog": "Täzelikler we Blog",
+            "contact": "Habarlaşmak"
+        },
+        "connect": "Habarlaşmak",
+        "rights": "Ähli hukuklar goralan."
+    }
+}

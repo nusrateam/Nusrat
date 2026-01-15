@@ -1,0 +1,299 @@
+{
+  "Navbar": {
+    "about": "Haqimizda",
+    "projects": "Loyihalar",
+    "blog": "Yangiliklar",
+    "team": "Jamoa",
+    "contact": "Bog'lanish",
+    "getStarted": "Boshlash"
+  },
+  "Hero": {
+    "badge": "Jamoaviy mukammallik kelajagi",
+    "title1": "Nusrat sari",
+    "title2": "birga qadam",
+    "title3": "tashlaymiz",
+    "description": "Nusrat - bu yuqori malakali mutaxassislar ekotizimi. Biz murakkab texnologiyalarni biznesingiz uchun oson va samarali yechimlarga aylantiramiz.",
+    "ctaPrimary": "Hamkorlikni boshlash",
+    "ctaSecondary": "Bizning jamoa"
+  },
+  "Stats": {
+    "exp": "Yillik Tajriba",
+    "projects": "Muvaffaqiyatli Loyihalar",
+    "members": "Elite Mutaxassislar",
+    "partners": "Global Hamkorlar"
+  },
+  "Common": {
+    "readMore": "Batafsil",
+    "loading": "Yuklanmoqda...",
+    "back": "Orqaga",
+    "dashboard": "Boshqaruv Paneli",
+    "aiAssistant": "Sun'iy Intellekt Yordamchisi",
+    "projects": "Loyihalar",
+    "team": "Jamoa",
+    "settings": "Sozlamalar",
+    "logout": "Chiqish",
+    "search": "Qidirish...",
+    "viewAll": "Barchasini Ko'rish",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "blog": "Blog Postlar",
+    "seo": "SEO Sozlamalari"
+  },
+  "Admin": {
+    "title": "Boshqaruv Paneli Umumiy Ko'rinishi",
+    "welcome": "Xush kelibsiz. Bugun Nusrat bilan nimalar sodir bo'layotganini ko'ring.",
+    "stats": {
+      "projects": "Jami Loyihalar",
+      "team": "Faol Jamoa",
+      "inquiries": "Murojaatlar",
+      "growth": "O'sish"
+    },
+    "activity": {
+      "title": "Oxirgi Faoliyat",
+      "projectApproved": "\"AI Finance\" yangi loyihasi tasdiqlandi.",
+      "hoursAgo": "{count} soat oldin"
+    },
+    "aiTips": {
+      "title": "SI Kontent Maslahatlari",
+      "strategyTitle": "Strategiya O'sishi",
+      "strategyDesc": "\"AI Infratuzilmasi\" haqidagi blog postlaringiz ommalashmoqda. \"LLM Operatsiyalari\" haqida davomiy post yozishni o'ylab ko'ring.",
+      "seoTitle": "SEO Tahlili",
+      "seoDesc": "Kliklanish darajasini (CTR) 15% gacha oshirish uchun \"Nusrat Dashboard\" loyihasining meta tavsifini yangilang."
+    }
+  },
+  "AIAssistant": {
+    "title": "SI Professional Yordamchisi",
+    "description": "Bizning elit SI dvigatelimiz bilan kontent yarating, SEO-ni optimallashtiring va tarjima qiling.",
+    "tabs": {
+      "content": "Kontent Generatori",
+      "seo": "SEO Optimizatori",
+      "translate": "Tarjima"
+    },
+    "inputLabels": {
+      "content": "Nima haqida yozishim kerak?",
+      "seo": "Optimallashtirish uchun URL yoki kontent",
+      "translate": "Tarjima qilinadigan matn"
+    },
+    "placeholders": {
+      "content": "Masalan: Yangi SI integratsiya strategiyamiz haqida professional blog posti yozing...",
+      "seo": "Masalan: https://nusrat.team/projects/ai-finance",
+      "translate": "Matnni bu yerga kiriting..."
+    },
+    "tone": "Ohang",
+    "toneValue": "Professional va Elit",
+    "run": "SI Dvigatelini Ishga Tushirish",
+    "running": "SI o'ylayapti...",
+    "templates": "Tezkor Shablonlar",
+    "response": "SI tomonidan yaratilgan javob",
+    "emptyResponse": "SI javobi bu yerda paydo bo'ladi...",
+    "tpl_project": "Yangi Loyiha E'loni",
+    "tpl_blog": "Ekspert Tahlili Blog Posti",
+    "tpl_seo": "Meta Tag yaratish"
+  },
+  "About": {
+    "title": "Bizning Yo'limiz va Missiyamiz",
+    "description": "Halol niyat va pok maqsad bilan jamiyatga xizmat qilamiz.",
+    "missionTitle": "Bizning Missiyamiz",
+    "missionDesc": "Murakkab texnologiyalar va innovatsion yechimlar orqali biznes va mutaxassislarni real qiymat va barqaror o'sishga erishishlari uchun qo'llab-quvvatlash.",
+    "visionTitle": "Bizning Qarashimiz",
+    "visionDesc": "O'zining halolligi va texnik mahorati bilan tanilgan, jamoaviy mukammallik va raqamli transformatsiya bo'yicha eng ishonchli global hamkor bo'lish.",
+    "valuesTitle": "Asosiy Qadriyatlarimiz",
+    "integrityTitle": "Halollik",
+    "integrityDesc": "Har bir hamkorlikda halollik va shaffoflik.",
+    "innovationTitle": "Innovatsiya",
+    "innovationDesc": "Doimiy ravishda imkoniyatlar chegarasini kengaytirish.",
+    "excellenceTitle": "Mukammallik",
+    "excellenceDesc": "Har bir kod satrida mukammallikka intilish.",
+    "milestonesTitle": "Mukammallik Bosqichlari",
+    "milestonesSub": "O'sish va yutuqlarimiz yilnomasi",
+    "timeline": {
+      "2022": {
+        "title": "Boshlanish",
+        "description": "Nusrat Toshkentda kichik bir hohishli dasturchilar guruhi sifatida tashkil etilgan."
+      },
+      "2023": {
+        "title": "Kengayish",
+        "description": "AI va bulutli arxitektura bo'yicha tajribamizni oshirdik va birinchi xalqaro mijozlarimizga xizmat ko'rsatdik."
+      },
+      "2024": {
+        "title": "Mukammallik markazi",
+        "description": "Asosiy qadriyatlarimizni belgiladik va kattaroq hamkorlik maydoniga ko'chdik."
+      },
+      "2025": {
+        "title": "Global ta'sir",
+        "description": "Dunyo bo'ylab 150 dan ortiq loyihani 98% mijoz mamnuniyati bilan muvaffaqiyatli yakunladik."
+      },
+      "2026": {
+        "title": "Nusrat Vision 2026",
+        "description": "Mintaqaviy raqamli transformatsiyada yetakchilik qilishni va har bir professional ish jarayoniga SI-ni integratsiya qilishni maqsad qilganmiz."
+      }
+    }
+  },
+  "Projects": {
+    "title": "Portfolio",
+    "description": "Bizning so'nggi ishlarimiz va innovatsion yutuqlarimiz bilan tanishing.",
+    "viewDetails": "Batafsil ko'rish",
+    "caseStudy": "Muvaffaqiyat tarixi",
+    "categories": {
+      "all": "Barchasi",
+      "ai": "AI Yechimlar",
+      "fintech": "Fintex",
+      "enterprise": "Korporativ",
+      "marketing": "Marketing"
+    },
+    "overview": "Umumiy tavsif",
+    "highlights": "Asosiy yutuqlar",
+    "demo": "Demo versiya",
+    "caseStudyPdf": "Case Study (PDF)",
+    "data": {
+      "1": {
+        "title": "EcoSphere AI",
+        "category": "AI Yechimlar",
+        "description": "EcoSphere AI - bu shahar hokimiyatlariga real vaqt rejimida atrof-muhit holatini monitoring qilish va optimallashtirishga yordam beradigan inqilobiy platforma. Sensorlar tarmog'i va ilg'or machine learning modellaridan foydalangan holda, tizim havo sifati o'zgarishini bashorat qiladi va ifloslanishning eng yuqori nuqtalarini kamaytirish bo'yicha proaktiv choralarni tavsiya qiladi.",
+        "status": "Tugallangan",
+        "highlights": [
+          "Pilot shaharlarda shahar energiya xarajatlari 15% ga kamaydi.",
+          "Tarmoq bo'ylab 10 000 dan ortiq IoT sensorlari bilan birlashtirilgan.",
+          "Shahar rasmiylari uchun real vaqt rejimida ma'lumotlarni vizuallashtirish paneli.",
+          "94% aniqlikdagi ilg'or bashoratli modellashtirish."
+        ]
+      },
+      "2": {
+        "title": "GlobalPay Next",
+        "category": "Fintex",
+        "description": "GlobalPay Next - bu xalqaro moliya bozorlari uchun mo'ljallangan transchegaraviy to'lov shlyuzi. U korxonalarga bir nechta valyutalarda real vaqt rejimida hisob-kitob qilish, past komissiya stavkalari va eng yuqoy xavfsizlik darajasini taklif etadi. Tizim murakkab bank infratuzilmalarini oson integratsiyalashuvchi API bilan birlashtiradi.",
+        "status": "Davom etmoqda",
+        "highlights": [
+          "Bir soniyada 5000 dan ortiq tranzaksiyani boshqarish imkoniyati.",
+          "30 dan ortiq asosiy fiat va raqamli valyutalarni qo'llab-quvvatlash.",
+          "PCI-DSS Level 1 sertifikatiga ega xavfsizlik protokollari.",
+          "20 dan ortiq xalqaro banklar bilan to'g'ridan-to'g'ri integratsiya."
+        ]
+      },
+      "3": {
+        "title": "Nusrat Dashboard",
+        "category": "Korporativ",
+        "description": "Nusrat jamoasi uchun maxsus ishlab chiqilgan ushbu panel loyihalarni boshqarish, resurslarni taqsimlash va jamoaning o'sishini kuzatish uchun markaz vazifasini o'taydi. U ichki jarayonlarni avtomatlashtirish va samaradorlikni oshirish uchun sun'iy intellekt tahlillaridan foydalanadi.",
+        "status": "Tugallangan",
+        "highlights": [
+          "Loyihalarni yetkazib berish vaqti o'rtacha 20% ga tezlashdi.",
+          "Avtomatlashtirilgan resurs taqsimoti va KPI monitoringi.",
+          "Real vaqt rejimida moliyaviy hisobotlar va tahlillar.",
+          "Jamoaning hamkorlikdagi ishlashi uchun integratsiyalashgan vositalar."
+        ]
+      }
+    }
+  },
+  "Team": {
+    "title": "Elite Mutaxassislar bilan tanishing",
+    "description": "Nusrat muvaffaqiyati ortidagi yorqin aqllar. Maxsus tanlangan, ishtiyoq bilan harakat qiladigan mutaxassislar.",
+    "photo": "Rasm",
+    "members": {
+      "alex": {
+        "role": "Bosh Arxitektor",
+        "bio": "Taqsimlangan tizimlar bo'yicha 3 yillik tajribaga ega texnik yetakchi."
+      },
+      "sarah": {
+        "role": "AI Mutaxassisi",
+        "bio": "Korporativ darajadagi generativ SIga ixtisoslashgan machine learning eksperti."
+      },
+      "michael": {
+        "role": "Mahsulot Dizayneri",
+        "bio": "Intuitiv foydalanuvchi tajribalarini yaratuvchi dizayn-fikrlash tarafdori."
+      },
+      "elena": {
+        "role": "O'sish Menejeri",
+        "bio": "Jamoalarni global miqyosda kengaytirishga yordam beruvchi strategik o'sish eksperti."
+      }
+    }
+  },
+  "Blog": {
+    "title": "Yangiliklar va Tahlillar",
+    "description": "Bizning professional ekotizimimizdan so'nggi fikrlar va yangiliklar.",
+    "categories": {
+      "all": "Barchasi",
+      "tech": "AI va Texnologiya",
+      "leadership": "Liderlik",
+      "marketing": "Marketing",
+      "case": "Muvaffaqiyatlar"
+    },
+    "data": {
+      "1": {
+        "title": "Korporativ tizimlarda SI kelajagi",
+        "excerpt": "Generativ SI elite jamoalarning dasturiy infratuzilmani yaratish va kengaytirish usullarini qanday o'zgartirmoqda.",
+        "category": "AI va Texnologiya",
+        "date": "10-Yanvar, 2026",
+        "author": "Sarah Chen",
+        "content": "Bugungi kunda sun'iy intellekt (SI) korporativ dunyoda shunchaki yangilik emas, balki zaruratga aylanib bormoqda. Generativ SI modellari yordamida kompaniyalar ma'lumotlarni tahlil qilish, mijozlarga xizmat ko'rsatish va hatto dasturiy ta'minotni ishlab chiqish jarayonlarini tubdan o'zgartirmoqda. <br/><br/> Bizning tajribamiz shuni ko'rsatadiki, SIni to'g'ri integratsiya qilgan korxonalar operatsion samaradorlikni 40% gacha oshirishi mumkin. Ayniqsa, 'Nusrat' kabi ilg'or jamoalar uchun bu texnologiyalar kundalik ish jarayonining ajralmas qismiga aylangan. Kelajakda biz to'liq avtomatlashtirilgan qaror qabul qilish tizimlari va o'zi o'rganuvchi algoritmlarning yanada keng tarqalishini kutmoqdamiz."
+      },
+      "2": {
+        "title": "Taqsimlangan jamoalarni global miqyosda kengaytirish",
+        "excerpt": "3 ta qit'ada yuqori samaradorlikka ega masofaviy muhandislik klasterlarini boshqarishda olingan tajribalar.",
+        "category": "Liderlik",
+        "date": "08-Yanvar, 2026",
+        "author": "Alex Johnson",
+        "content": "Masofaviy ishlash madaniyati global miqyosda iste'dodlarni jalb qilish imkoniyatini ochib berdi. Ammo turli vaqt zonalari va madaniyatlardagi jamoalarni samarali boshqarish o'ziga xos qiyinchiliklarni tug'diradi. <br/><br/> 3 ta qit'ada joylashgan jamoalarni boshqarish tajribamizdan kelib chiqib, biz asinxron kommunikatsiya va shaffoflikka urg'u beramiz. Har bir jamoa a'zosi umumiy maqsadni aniq tushunishi va o'z hissasini ko'ra olishi muhim. Texnologik vositalar, xususan, real vaqt rejimidagi hamkorlik platformalari (masalan, Nusrat Dashboard) bu jarayonda hal qiluvchi rol o'ynaydi."
+      },
+      "3": {
+        "title": "2026-yil uchun SEO strategiyalari",
+        "excerpt": "Nima uchun an'anaviy kalit so'zlarni optimallashtirish o'z dolzarbligini yo'qotdi va semantik vakolat sizning brendingiz uchun nimani anglatadi.",
+        "category": "Marketing",
+        "date": "05-Yanvar, 2026",
+        "author": "Elena Petrova",
+        "content": "2026-yilda SEO shunchaki kalit so'zlarni to'g'ri tanlash emas. Qidiruv tizimlari endi foydalanuvchi niyatini va kontentning semantik chuqurligini tushunishga qodir. <br/><br/> Brendingizning raqamli makonda ustunligini ta'minlash uchun 'Mavzuviy Vakolat' (Topical Authority) yaratishga e'tibor qarating. Bu shuni anglatadiki, siz bitta kalit so'z bo'yicha emas, balki butun bir mavzu bo'yicha ekspert sifatida tanilishingiz kerak. Shuningdek, ovozli qidiruv va SI tomonidan generatsiya qilingan javoblarda (SGE) ko'rinish berish uchun kontentingizni tabiiy til va savol-javob formatida optimallashtirish zarur."
+      }
+    }
+  },
+  "Contact": {
+    "title": "Birgalikda Yaratamiz",
+    "description": "Loyihangiz bormi? Yoki bizning elit jamoamizga qo'shilmoqchimisiz? Biz bilan bog'laning.",
+    "infoTitle": "Aloqa Ma'lumotlari",
+    "email": "Bizga yozing",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "newsletterTitle": "Xabarnomamizga a'zo bo'ling",
+    "newsletterDesc": "So'nggi yangiliklar va jamoa yangilanishlarini to'g'ridan-to'g'ri elektron pochtangizga oling.",
+    "join": "A'zo bo'lish",
+    "formTitle": "Xabar yuborish",
+    "firstName": "Ism",
+    "lastName": "Familiya",
+    "emailLabel": "Elektron pochta",
+    "subject": "Mavzu",
+    "message": "Xabar",
+    "send": "Xabarni yuborish",
+    "sending": "Yuborilmoqda...",
+    "successTitle": "Xabar qabul qilindi!",
+    "successDesc": "Nusrat bilan bog'langaningiz uchun tashakkur. Jamoamiz 24 soat ichida siz bilan bog'lanadi.",
+    "another": "Yana bir xabar yuborish",
+    "subjects": {
+      "project": "Yangi loyiha so'rovi",
+      "collab": "Hamkorlik taklifi",
+      "join": "Jamoaga qo'shilish",
+      "other": "Boshqa"
+    }
+  },
+  "Home": {
+    "empowerTitle": "Innovatsiyalar orqali mutaxassislarni imkoniyatlarini kengaytirish",
+    "empowerDesc": "Nusrat nafaqat jamoa; bu mukammallik uchun yaratilgan ekotizimdir. Biz mijozlarimiz uchun mislsiz natijalarni taqdim etish uchun chuqur texnik tajribani strategik qarashlar bilan birlashtiramiz.",
+    "visionQuote": "\"Bizning missiyamiz - texnologiya va professional tajriba dunyodagi eng murakkab muammolarni hal qilish uchun birlashadigan kelajakni yaratishdir.\"",
+    "visionCite": "— Nusrat Vision 2026",
+    "services": {
+      "scalable": "Kengaytiriluvchi tizimlar",
+      "ai": "Sun'iy intellekt yechimlari",
+      "growth": "Ekspert o'sishi",
+      "seo": "SEO professionalizmi"
+    }
+  },
+  "Footer": {
+    "mission": "Keyingi avlod professional mukammalligi uchun zamonaviy yechimlarni yaratish. Biz bilan birga innovatsiyalar yarating va rivojlaning.",
+    "quickLinks": "Tezkor havolalar",
+    "links": {
+      "about": "Haqimizda",
+      "projects": "Portfolio",
+      "blog": "Yangiliklar va Blog",
+      "contact": "Bog'lanish"
+    },
+    "connect": "Bog'lanish",
+    "rights": "Barcha huquqlar himoyalangan."
+  }
+}

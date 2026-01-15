@@ -1,0 +1,297 @@
+{
+    "Navbar": {
+        "about": "About",
+        "projects": "Projects",
+        "blog": "Blog",
+        "team": "Team",
+        "contact": "Contact",
+        "getStarted": "Get Started"
+    },
+    "Hero": {
+        "badge": "The Future of Team Excellence",
+        "title1": "Innovate.",
+        "title2": "Build.",
+        "title3": "Scale with Nusrat.",
+        "description": "Nusrat is an ecosystem of high-end professionals. We turn complex technology into easy and efficient solutions for your business.",
+        "ctaPrimary": "Start Collaboration",
+        "ctaSecondary": "Our Team"
+    },
+    "Stats": {
+        "exp": "Years Experience",
+        "projects": "Successful Projects",
+        "members": "Elite Professionals",
+        "partners": "Global Partners"
+    },
+    "Common": {
+        "readMore": "Read More",
+        "loading": "Loading...",
+        "search": "Search...",
+        "all": "All",
+        "back": "Back",
+        "dashboard": "Dashboard",
+        "aiAssistant": "AI Assistant",
+        "projects": "Projects",
+        "team": "Team",
+        "settings": "Settings",
+        "logout": "Logout",
+        "viewAll": "View All",
+        "save": "Save",
+        "cancel": "Cancel",
+        "blog": "Blog Posts",
+        "seo": "SEO Settings"
+    },
+    "Admin": {
+        "title": "Dashboard Overview",
+        "welcome": "Welcome back. Here's what's happening today at Nusrat.",
+        "stats": {
+            "projects": "Total Projects",
+            "team": "Active Team",
+            "inquiries": "Inquiries",
+            "growth": "Growth"
+        },
+        "activity": {
+            "title": "Recent Activity",
+            "projectApproved": "New project \"AI Finance\" was approved.",
+            "hoursAgo": "{count} hours ago"
+        },
+        "aiTips": {
+            "title": "AI Content Tips",
+            "strategyTitle": "Strategy Boost",
+            "strategyDesc": "Your blog posts about \"AI Infrastructure\" are trending. Consider generating a follow-up piece about \"LLM Operations\".",
+            "seoTitle": "SEO Insight",
+            "seoDesc": "Update the meta description for \"Nusrat Dashboard\" project to improve click-through rate by up to 15%."
+        }
+    },
+    "AIAssistant": {
+        "title": "AI Professional Assistant",
+        "description": "Generate content, optimize SEO, and translate with our elite AI engine.",
+        "tabs": {
+            "content": "Content Generator",
+            "seo": "SEO Optimizer",
+            "translate": "Translation"
+        },
+        "inputLabels": {
+            "content": "What should I write?",
+            "seo": "URL or Content to Optimize",
+            "translate": "Text to Translate"
+        },
+        "placeholders": {
+            "content": "e.g. Write a professional blog post about our new AI integration strategy...",
+            "seo": "e.g. https://nusrat.team/projects/ai-finance",
+            "translate": "Enter text here..."
+        },
+        "tone": "Tone",
+        "toneValue": "Professional & Elite",
+        "run": "Run AI Engine",
+        "running": "AI is thinking...",
+        "templates": "Quick Templates",
+        "response": "AI Generated Response",
+        "emptyResponse": "AI response will appear here...",
+        "tpl_project": "New Project Announcement",
+        "tpl_blog": "Expert Insight Blog Post",
+        "tpl_seo": "Meta Tag Generation"
+    },
+    "About": {
+        "title": "Our Journey & Mission",
+        "description": "Driven by passion, defined by excellence. Discover the story behind Nusrat.",
+        "missionTitle": "Our Mission",
+        "missionDesc": "To empower businesses and professionals through cutting-edge technology and innovative solutions that drive real-world value and sustainable growth.",
+        "visionTitle": "Our Vision",
+        "visionDesc": "To be the most trusted global partner for team excellence and digital transformation, known for our integrity and technical mastery.",
+        "valuesTitle": "Our Core Values",
+        "integrityTitle": "Integrity",
+        "integrityDesc": "Honesty and transparency in every collaboration.",
+        "innovationTitle": "Innovation",
+        "innovationDesc": "Constantly pushing the boundaries of what's possible.",
+        "excellenceTitle": "Excellence",
+        "excellenceDesc": "Striving for perfection in every line of code.",
+        "milestonesTitle": "Milestones of Excellence",
+        "milestonesSub": "A timeline of our growth and achievements",
+        "timeline": {
+            "2018": {
+                "title": "The Beginning",
+                "description": "Nusrat was founded as a small group of ambitious developers in Tashkent."
+            },
+            "2020": {
+                "title": "Scaling Up",
+                "description": "Expanded our expertise to AI and cloud architecture, serving our first international clients."
+            },
+            "2022": {
+                "title": "Excellence Hub",
+                "description": "Established our core values and moved into a larger collaborative space."
+            },
+            "2024": {
+                "title": "Global Impact",
+                "description": "Successfully delivered over 150+ projects worldwide with 98% client satisfaction."
+            },
+            "2026": {
+                "title": "Vision 2026",
+                "description": "Aiming to lead the regional digital transformation and integrate AI into every professional workflow."
+            }
+        }
+    },
+    "Projects": {
+        "title": "Portfolio",
+        "description": "Exploring our latest work and innovative breakthroughs.",
+        "viewDetails": "View Details",
+        "caseStudy": "Case Study",
+        "categories": {
+            "all": "All",
+            "ai": "AI Solutions",
+            "fintech": "Fintech",
+            "enterprise": "Enterprise",
+            "marketing": "Marketing"
+        },
+        "overview": "Overview",
+        "highlights": "Key Highlights",
+        "demo": "Live Demo",
+        "caseStudyPdf": "Case Study PDF",
+        "data": {
+            "1": {
+                "title": "EcoSphere AI",
+                "category": "AI Solutions",
+                "description": "EcoSphere AI is a revolutionary platform designed to help municipal governments monitor and optimize urban environmental health in real-time. Using a network of sensors and advanced machine learning models, the system predicts air quality fluctuations and recommends proactive measures to reduce pollution peaks.",
+                "status": "Completed",
+                "highlights": [
+                    "Reduced urban energy costs by 15% in pilot cities.",
+                    "Integrated with 10,000+ IoT sensors across the grid.",
+                    "Real-time data visualization dashboard for city officials.",
+                    "Advanced predictive modeling with 94% accuracy."
+                ]
+            },
+            "2": {
+                "title": "GlobalPay Next",
+                "category": "Fintech",
+                "description": "GlobalPay Next is a cross-border payment gateway designed for international financial markets. It offers businesses real-time settlement across multiple currencies, low fee rates, and the highest level of security. The system bridges complex banking infrastructures with an easy-to-integrate API.",
+                "status": "Ongoing",
+                "highlights": [
+                    "Capable of handling 5000+ transactions per second.",
+                    "Supports 30+ major fiat and digital currencies.",
+                    "PCI-DSS Level 1 certified security protocols.",
+                    "Direct integration with 20+ international banks."
+                ]
+            },
+            "3": {
+                "title": "Nusrat Dashboard",
+                "category": "Enterprise",
+                "description": "Custom-built for the Nusrat team, this dashboard serves as the central hub for project management, resource allocation, and team growth tracking. It leverages AI-driven insights to automate internal workflows and optimize efficiency.",
+                "status": "Completed",
+                "highlights": [
+                    "Accelerated project delivery times by 20% on average.",
+                    "Automated resource allocation and KPI tracking.",
+                    "Real-time financial reporting and analytics.",
+                    "Integrated tools for team collaboration."
+                ]
+            }
+        }
+    },
+    "Team": {
+        "title": "Meet the Elite",
+        "description": "The brilliant minds behind Nusrat's success. Expertly selected, passionately driven.",
+        "photo": "Photo",
+        "members": {
+            "alex": {
+                "role": "Lead Architect",
+                "bio": "Visionary technical leader with 10+ years in distributed systems."
+            },
+            "sarah": {
+                "role": "AI Specialist",
+                "bio": "Machine learning expert focused on generative AI for enterprise."
+            },
+            "michael": {
+                "role": "Product Designer",
+                "bio": "Design thinking advocate creating intuitive user experiences."
+            },
+            "elena": {
+                "role": "Growth Manager",
+                "bio": "Strategic growth expert helping teams scale globally."
+            }
+        }
+    },
+    "Blog": {
+        "title": "News & Insights",
+        "description": "The latest thoughts from our elite professional ecosystem.",
+        "categories": {
+            "all": "All",
+            "tech": "AI & Tech",
+            "leadership": "Leadership",
+            "marketing": "Marketing",
+            "case": "Case Studies"
+        },
+        "data": {
+            "1": {
+                "title": "The Future of AI in Enterprise Systems",
+                "excerpt": "How generative AI is reshaping the way elite teams build and scale software infrastructure.",
+                "category": "AI & Tech",
+                "date": "Jan 10, 2026",
+                "author": "Sarah Chen"
+            },
+            "2": {
+                "title": "Scaling Distributed Teams Globally",
+                "excerpt": "Lessons learned from managing high-performance remote engineering clusters across 3 continents.",
+                "category": "Leadership",
+                "date": "Jan 08, 2026",
+                "author": "Alex Johnson"
+            },
+            "3": {
+                "title": "SEO Strategies for 2026",
+                "excerpt": "Why traditional keyword optimization is dead and what semantic authority means for your brand.",
+                "category": "Marketing",
+                "date": "Jan 05, 2026",
+                "author": "Elena Petrova"
+            }
+        }
+    },
+    "Contact": {
+        "title": "Let's Build Together",
+        "description": "Have a project in mind? Or looking to join our elite team? Reach out and let's start the conversation.",
+        "infoTitle": "Contact Information",
+        "email": "Email Us",
+        "call": "Call Us",
+        "address": "Our Headquarters",
+        "newsletterTitle": "Join our newsletter",
+        "newsletterDesc": "Get the latest insights and team updates directly in your inbox.",
+        "join": "Join",
+        "formTitle": "Send Message",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "emailLabel": "Email Address",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send Message",
+        "sending": "Sending...",
+        "successTitle": "Message Received!",
+        "successDesc": "Thank you for reaching out to Nusrat. Our team will get back to you within 24 hours.",
+        "another": "Send Another Message",
+        "subjects": {
+            "project": "New Project Inquiry",
+            "collab": "Collaboration Invitation",
+            "join": "Join the Team",
+            "other": "Other"
+        }
+    },
+    "Home": {
+        "empowerTitle": "Empowering Professionals Through Innovation",
+        "empowerDesc": "Nusrat is more than just a team; it's an ecosystem designed for excellence. We combine deep technical expertise with strategic vision to deliver unparalleled results for our clients.",
+        "visionQuote": "\"Our mission is to create a future where technology and professional expertise merge to solve the world's most complex challenges.\"",
+        "visionCite": "— Nusrat Vision 2026",
+        "services": {
+            "scalable": "Scalable Systems",
+            "ai": "AI Solutions",
+            "growth": "Expert Growth",
+            "seo": "SEO Mastery"
+        }
+    },
+    "Footer": {
+        "mission": "Building modern solutions for the next generation of professional excellence. Join us in our journey to innovate and scale.",
+        "quickLinks": "Quick Links",
+        "links": {
+            "about": "About Us",
+            "projects": "Portfolio",
+            "blog": "News & Blog",
+            "contact": "Contact"
+        },
+        "connect": "Connect",
+        "rights": "All rights reserved."
+    }
+}
