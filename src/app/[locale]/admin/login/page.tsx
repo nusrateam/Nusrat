@@ -23,8 +23,8 @@ export default function LoginPage() {
     }
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 px-4">
-            <div className="max-w-md w-full space-y-8 bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+        <div className="min-h-screen flex items-center justify-center bg-background px-4">
+            <div className="max-w-md w-full space-y-8 bg-card p-8 rounded-3xl shadow-2xl border border-slate-100 dark:border-slate-800">
                 <div className="text-center">
                     <div className="flex justify-center mt-6">
                         <Image
@@ -32,18 +32,18 @@ export default function LoginPage() {
                             alt="Nusrat Logo"
                             width={180}
                             height={60}
-                            className="dark:invert"
+                            className="dark:invert h-12 w-auto object-contain"
                             priority
                         />
                     </div>
-                    <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                        Sign in to your account
+                    <p className="mt-4 text-sm font-bold text-slate-500 uppercase tracking-widest">
+                        Admin panelga kirish
                     </p>
                 </div>
                 <form className="mt-8 space-y-6" action={formAction}>
-                    <div className="rounded-md shadow-sm space-y-4">
+                    <div className="space-y-4">
                         <div>
-                            <label htmlFor="username" className="sr-only">
+                            <label htmlFor="username" className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2 block">
                                 Username
                             </label>
                             <input
@@ -51,12 +51,12 @@ export default function LoginPage() {
                                 name="username"
                                 type="text"
                                 required
-                                className="appearance-none rounded-lg relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 text-gray-900 dark:text-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm bg-transparent"
-                                placeholder="Username"
+                                className="appearance-none rounded-xl relative block w-full px-4 py-3 border border-slate-200 dark:border-slate-700 placeholder-slate-400 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all sm:text-sm bg-slate-50/50 dark:bg-slate-800/50"
+                                placeholder="Admin"
                             />
                         </div>
                         <div>
-                            <label htmlFor="password" className="sr-only">
+                            <label htmlFor="password" className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2 block">
                                 Password
                             </label>
                             <input
@@ -64,14 +64,14 @@ export default function LoginPage() {
                                 name="password"
                                 type="password"
                                 required
-                                className="appearance-none rounded-lg relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 placeholder-gray-500 text-gray-900 dark:text-white focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm bg-transparent"
-                                placeholder="Password"
+                                className="appearance-none rounded-xl relative block w-full px-4 py-3 border border-slate-200 dark:border-slate-700 placeholder-slate-400 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all sm:text-sm bg-slate-50/50 dark:bg-slate-800/50"
+                                placeholder="••••••••"
                             />
                         </div>
                     </div>
 
                     {state?.message && (
-                        <div className="text-red-500 text-sm text-center">
+                        <div className="text-red-500 text-xs font-bold text-center bg-red-50 dark:bg-red-900/10 py-2 rounded-lg border border-red-100 dark:border-red-900/20">
                             {state.message}
                         </div>
                     )}
@@ -80,12 +80,12 @@ export default function LoginPage() {
                         <button
                             type="submit"
                             disabled={isPending}
-                            className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed"
+                            className="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-bold rounded-xl text-white bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-all shadow-lg shadow-primary/20 disabled:opacity-50 disabled:cursor-not-allowed uppercase tracking-widest"
                         >
                             {isPending ? (
                                 <Loader2 className="animate-spin h-5 w-5" />
                             ) : (
-                                'Sign in'
+                                'Tizimga kirish'
                             )}
                         </button>
                     </div>
