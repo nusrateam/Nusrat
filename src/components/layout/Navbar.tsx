@@ -7,6 +7,7 @@ import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { ThemeToggle } from "./ThemeToggle";
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
@@ -47,6 +48,7 @@ export function Navbar() {
                         </Link>
                     ))}
                     <div className="h-6 w-px bg-slate-200 dark:bg-slate-800" />
+                    <ThemeToggle />
                     <LanguageSwitcher />
                     <Button variant="primary" size="sm" className="font-bold">
                         {t("getStarted")}
@@ -55,6 +57,7 @@ export function Navbar() {
 
                 {/* Mobile Toggle */}
                 <div className="flex items-center gap-4 md:hidden">
+                    <ThemeToggle />
                     <LanguageSwitcher />
                     <button onClick={() => setIsOpen(!isOpen)}>
                         {isOpen ? <X size={24} /> : <Menu size={24} />}

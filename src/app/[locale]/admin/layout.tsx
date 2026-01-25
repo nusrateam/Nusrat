@@ -1,7 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import { Link } from "@/i18n/routing";
-import { LayoutDashboard, PenTool, Sparkles, Settings, Users, Briefcase, Globe, LogOut, MessageSquare } from "lucide-react";
+import { LayoutDashboard, PenTool, Sparkles, Settings, Users, Briefcase, Globe, LogOut, MessageSquare, Menu, X } from "lucide-react";
 import { logout } from "@/app/actions/auth";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
@@ -25,14 +26,40 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         { icon: Settings, label: t("settings"), href: "/admin/settings" },
     ];
 
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
     return (
         <div className="flex min-h-screen bg-slate-50 dark:bg-slate-950">
+            {/* Mobile Header */}
+            <header className="md:hidden fixed top-0 w-full z-40 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 h-16 flex items-center justify-between px-4">
+                <Link href="/" className="flex items-center gap-2">
+                    <Image src="/logo.png" alt="Logo" width={32} height={32} className="h-8 w-auto dark:invert" />
+                    <span className="font-heading font-bold text-primary dark:text-white uppercase">Admin</span>
+                </Link>
+                <button
+                    onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+                    className="p-2 text-slate-600 dark:text-slate-400"
+                >
+                    {isSidebarOpen ? <X size={24} /> : <Menu size={24} />}
+                </button>
+            </header>
+
+            {/* Backdrop for Mobile Sidebar */}
+            {isSidebarOpen && (
+                <div
+                    className="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-40 md:hidden"
+                    onClick={() => setIsSidebarOpen(false)}
+                />
+            )}
+
             {/* Sidebar */}
             <aside className={cn(
-                "w-64 bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 flex flex-col fixed inset-y-0",
-                locale === 'ar' ? "right-0 border-l" : "left-0 border-r"
+                "w-64 bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 flex flex-col fixed inset-y-0 z-50 transition-transform duration-300 md:translate-x-0",
+                locale === 'ar'
+                    ? (isSidebarOpen ? "translate-x-0" : "translate-x-full") + " right-0 border-l"
+                    : (isSidebarOpen ? "translate-x-0" : "-translate-x-full") + " left-0 border-r"
             )}>
-                <div className="p-6">
+                <div className="p-6 hidden md:block">
                     <Link href="/" className="flex items-center gap-2 group">
                         <Image
                             src="/logo.png"
@@ -46,13 +73,21 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                     </Link>
                 </div>
 
-                <nav className="flex-grow px-4 space-y-2">
+                {/* Mobile Sidebar Close Button */}
+                <div className="md:hidden p-4 flex justify-end">
+                    <button onClick={() => setIsSidebarOpen(false)} className="p-2 text-slate-500">
+                        <X size={20} />
+                    </button>
+                </div>
+
+                <nav className="flex-grow px-4 space-y-1 overflow-y-auto">
                     {menuItems.map((item) => {
                         const active = pathname === item.href;
                         return (
                             <Link
                                 key={item.href}
                                 href={item.href as "/admin"}
+                                onClick={() => setIsSidebarOpen(false)}
                                 className={cn(
                                     "flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-bold transition-all uppercase tracking-tight",
                                     active
@@ -87,8 +122,8 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
 
             {/* Main Content */}
             <main className={cn(
-                "flex-grow p-8",
-                locale === 'ar' ? "mr-64" : "ml-64"
+                "flex-grow p-4 md:p-8 pt-20 md:pt-8",
+                locale === 'ar' ? "md:mr-64" : "md:ml-64"
             )}>
                 {children}
             </main>

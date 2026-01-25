@@ -14,9 +14,9 @@ export default function AdminSettingsPage() {
                 <p className="text-slate-500">Platforma parametrlarini va xavfsizlik sozlamalarini boshqaring.</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="flex flex-col md:grid md:grid-cols-4 gap-8">
                 {/* Sidebar Navigation */}
-                <div className="md:col-span-1 space-y-1">
+                <div className="flex md:flex-col overflow-x-auto md:overflow-x-visible pb-2 md:pb-0 gap-1 scrollbar-hide">
                     {[
                         { icon: Settings, label: "Umumiy", active: true },
                         { icon: Palette, label: "Tashqi ko'rinish" },
@@ -29,7 +29,7 @@ export default function AdminSettingsPage() {
                         return (
                             <button
                                 key={item.label}
-                                className={`w-full flex items-center gap-3 px-4 py-2 text-sm font-bold rounded-lg transition-colors ${item.active ? "bg-primary text-white" : "text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800"
+                                className={`flex-shrink-0 flex items-center gap-3 px-4 py-2 text-sm font-bold rounded-lg transition-colors whitespace-nowrap ${item.active ? "bg-primary text-white" : "text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800"
                                     }`}
                             >
                                 <Icon size={18} />
@@ -46,7 +46,7 @@ export default function AdminSettingsPage() {
                             <h2 className="text-lg font-bold font-heading">Umumiy ma&apos;lumotlar</h2>
                         </CardHeader>
                         <CardContent className="space-y-4">
-                            <div className="grid grid-cols-2 gap-4">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <div className="space-y-2">
                                     <label className="text-xs font-bold text-slate-500 uppercase">Sayt Nomi</label>
                                     <input type="text" defaultValue="Nusrat" className="w-full p-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg text-sm" />
@@ -84,30 +84,30 @@ export default function AdminSettingsPage() {
                             <h2 className="text-lg font-bold font-heading">Xavfsizlik &amp; Kirish</h2>
                         </CardHeader>
                         <CardContent className="space-y-4">
-                            <div className="flex items-center justify-between p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700">
-                                <div>
+                            <div className="flex flex-col sm:flex-row items-center justify-between p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700 gap-4">
+                                <div className="text-center sm:text-left">
                                     <h4 className="text-sm font-bold">Ikki bosqichli autentifikatsiya (2FA)</h4>
                                     <p className="text-xs text-slate-500">Hisobingiz xavfsizligini oshirish uchun 2FA-ni yoqing.</p>
                                 </div>
-                                <div className="w-10 h-5 bg-primary rounded-full relative">
+                                <div className="w-10 h-5 bg-primary rounded-full relative shrink-0">
                                     <div className="absolute right-1 top-1 w-3 h-3 bg-white rounded-full shadow-sm" />
                                 </div>
                             </div>
-                            <div className="flex items-center justify-between p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700">
-                                <div>
+                            <div className="flex flex-col sm:flex-row items-center justify-between p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700 gap-4">
+                                <div className="text-center sm:text-left">
                                     <h4 className="text-sm font-bold">Login Bildirishnomalari</h4>
                                     <p className="text-xs text-slate-500">Har bir yangi kirishda elektron pochta orqali xabar olish.</p>
                                 </div>
-                                <div className="w-10 h-5 bg-slate-200 dark:bg-slate-700 rounded-full relative">
+                                <div className="w-10 h-5 bg-slate-200 dark:bg-slate-700 rounded-full relative shrink-0">
                                     <div className="absolute left-1 top-1 w-3 h-3 bg-white rounded-full shadow-sm" />
                                 </div>
                             </div>
                         </CardContent>
-                        <CardFooter className="bg-slate-50 dark:bg-slate-800/50 justify-between">
+                        <CardFooter className="bg-slate-50 dark:bg-slate-800/50 flex flex-col sm:flex-row justify-between gap-4">
                             <div className="flex items-center gap-2 text-xs text-slate-500">
                                 <HelpCircle size={14} /> Ko&apos;proq ma&apos;lumot oling
                             </div>
-                            <Button className="flex items-center gap-2">
+                            <Button className="flex items-center gap-2 w-full sm:w-auto justify-center">
                                 <Save size={16} /> O&apos;zgarishlarni saqlash
                             </Button>
                         </CardFooter>
@@ -131,7 +131,7 @@ function ThemeSelector() {
     }
 
     return (
-        <div className="flex gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <button
                 onClick={() => setTheme("light")}
                 className={`flex-1 p-4 rounded-xl border-2 flex flex-col items-center gap-2 transition-all ${theme === "light" ? "border-primary bg-primary/5 text-primary" : "border-slate-200 dark:border-slate-700 hover:border-primary/50"}`}
