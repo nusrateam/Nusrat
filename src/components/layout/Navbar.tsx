@@ -32,7 +32,7 @@ export function Navbar() {
                         alt="Nusrat Logo"
                         width={120}
                         height={40}
-                        className="h-10 w-auto transition-transform group-hover:scale-105 object-contain"
+                        className="h-10 w-auto transition-transform group-hover:scale-105 object-contain dark:invert"
                     />
                 </Link>
 
