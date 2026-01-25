@@ -169,7 +169,7 @@ export default function ContactPage() {
                     </div>
 
                     {/* Form */}
-                    <div className="bg-white dark:bg-slate-900 p-8 md:p-12 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-2xl">
+                    <div className="bg-background p-8 md:p-12 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-2xl">
                         <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
                             <div className="grid grid-cols-2 gap-6">
                                 <div className="space-y-2">
@@ -196,7 +196,7 @@ export default function ContactPage() {
                             </div>
                             <div className="space-y-2">
                                 <label className="text-xs font-bold uppercase tracking-wider text-slate-500">{t("message")}</label>
-                                <textarea required name="message" rows={4} className="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-800 focus:ring-2 focus:ring-primary/20 outline-none resize-none bg-white dark:bg-slate-900 font-medium" placeholder="..."></textarea>
+                                <textarea required name="message" rows={4} className="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-800 focus:ring-2 focus:ring-primary/20 outline-none resize-none bg-background font-medium" placeholder="..."></textarea>
                             </div>
                             <Button type="submit" size="lg" className="w-full group font-bold" disabled={loading}>
                                 {loading ? t("sending") : t("send")}

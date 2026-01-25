@@ -75,7 +75,7 @@ export function Navbar() {
 
             {/* Mobile Menu Content */}
             <div className={cn(
-                "md:hidden absolute top-20 left-0 w-full bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 p-8 flex flex-col gap-6 z-50 transition-all duration-300 ease-in-out transform origin-top",
+                "md:hidden absolute top-20 left-0 w-full bg-background border-b border-slate-200 dark:border-slate-800 p-8 flex flex-col gap-6 z-50 transition-all duration-300 ease-in-out transform origin-top",
                 isOpen ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0 pointer-events-none"
             )}>
                 {links.map((link) => (
