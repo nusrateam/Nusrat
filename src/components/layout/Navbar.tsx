@@ -7,6 +7,7 @@ import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { cn } from "@/lib/utils";
 
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -61,22 +62,33 @@ export function Navbar() {
                 </div>
             </div>
 
-            {/* Mobile Menu */}
+            {/* Mobile Menu Backdrop */}
             {isOpen && (
-                <div className="md:hidden absolute top-20 left-0 w-full bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 p-6 flex flex-col gap-4 animate-in slide-in-from-top-4 duration-300">
-                    {links.map((link) => (
-                        <Link
-                            key={link.href}
-                            href={link.href as "/"}
-                            onClick={() => setIsOpen(false)}
-                            className="text-lg font-bold text-slate-600 dark:text-slate-300 uppercase tracking-tight"
-                        >
-                            {link.label}
-                        </Link>
-                    ))}
-                    <Button className="w-full font-bold">{t("getStarted")}</Button>
-                </div>
+                <div
+                    className="fixed inset-0 top-20 bg-slate-900/50 backdrop-blur-sm z-40 md:hidden"
+                    onClick={() => setIsOpen(false)}
+                />
             )}
+
+            {/* Mobile Menu Content */}
+            <div className={cn(
+                "md:hidden absolute top-20 left-0 w-full bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 p-8 flex flex-col gap-6 z-50 transition-all duration-300 ease-in-out transform origin-top",
+                isOpen ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0 pointer-events-none"
+            )}>
+                {links.map((link) => (
+                    <Link
+                        key={link.href}
+                        href={link.href as "/"}
+                        onClick={() => setIsOpen(false)}
+                        className="text-xl font-bold text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-white transition-colors uppercase tracking-tight"
+                    >
+                        {link.label}
+                    </Link>
+                ))}
+                <div className="pt-4 border-t border-slate-100 dark:border-slate-800">
+                    <Button size="lg" className="w-full font-bold shadow-lg shadow-primary/20">{t("getStarted")}</Button>
+                </div>
+            </div>
         </nav>
     );
 }

@@ -9,8 +9,8 @@ export function Footer() {
 
     return (
         <footer className="bg-slate-950 text-slate-400 py-12 px-6 border-t border-slate-800">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
-                <div className="col-span-1 md:col-span-2">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-center md:text-left">
+                <div className="col-span-1 md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left">
                     <Link href="/" className="flex items-center gap-2 mb-6 group">
                         <Image
                             src="/logo.png"

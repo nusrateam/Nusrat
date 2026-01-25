@@ -34,16 +34,16 @@ export default function Home() {
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <div className="h-48 bg-primary rounded-2xl flex items-center justify-center p-6 text-white text-center font-bold">
+            <div className="h-40 md:h-48 bg-primary rounded-2xl flex items-center justify-center p-4 md:p-6 text-white text-center font-bold text-sm md:text-base">
               {h("services.scalable")}
             </div>
-            <div className="h-48 bg-secondary rounded-2xl translate-y-8 flex items-center justify-center p-6 text-white text-center font-bold shadow-lg shadow-secondary/20">
+            <div className="h-40 md:h-48 bg-secondary rounded-2xl md:translate-y-8 flex items-center justify-center p-4 md:p-6 text-white text-center font-bold shadow-lg shadow-secondary/20 text-sm md:text-base">
               {h("services.ai")}
             </div>
-            <div className="h-48 bg-slate-900 rounded-2xl flex items-center justify-center p-6 text-white text-center font-bold">
+            <div className="h-40 md:h-48 bg-slate-900 rounded-2xl flex items-center justify-center p-4 md:p-6 text-white text-center font-bold text-sm md:text-base">
               {h("services.growth")}
             </div>
-            <div className="h-48 bg-primary rounded-2xl translate-y-8 flex items-center justify-center p-6 text-white text-center font-bold shadow-lg shadow-primary/20">
+            <div className="h-40 md:h-48 bg-primary rounded-2xl md:translate-y-8 flex items-center justify-center p-4 md:p-6 text-white text-center font-bold shadow-lg shadow-primary/20 text-sm md:text-base">
               {h("services.seo")}
             </div>
           </div>

@@ -22,8 +22,8 @@ export function Hero() {
                     <span className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wide uppercase bg-secondary/10 text-secondary rounded-full">
                         {t("badge")}
                     </span>
-                    <h1 className="text-5xl md:text-7xl font-bold font-heading mb-8 bg-clip-text text-transparent bg-gradient-to-r from-primary via-slate-900 to-secondary dark:from-white dark:via-slate-200 dark:to-secondary">
-                        {t("title1")} {t("title2")} <br /> {t("title3")}
+                    <h1 className="text-4xl md:text-7xl font-bold font-heading mb-8 bg-clip-text text-transparent bg-gradient-to-r from-primary via-slate-900 to-secondary dark:from-white dark:via-slate-200 dark:to-secondary">
+                        {t("title1")} {t("title2")} <br className="hidden md:block" /> {t("title3")}
                     </h1>
                     <p className="max-w-2xl mx-auto text-xl text-slate-600 dark:text-slate-400 mb-10">
                         {t("description")}

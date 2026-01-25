@@ -17,7 +17,7 @@ const Section = forwardRef<HTMLElement, SectionProps>(
         return (
             <section
                 ref={ref}
-                className={cn("py-20 px-6", variants[variant], className)}
+                className={cn("py-12 md:py-20 px-6", variants[variant], className)}
                 {...props}
             >
                 <div className="max-w-7xl mx-auto">{children}</div>

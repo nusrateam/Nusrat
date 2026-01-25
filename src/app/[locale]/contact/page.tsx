@@ -120,9 +120,9 @@ export default function ContactPage() {
             <Navbar />
 
             <div className="pt-32 pb-12 bg-slate-950 text-white">
-                <div className="max-w-7xl mx-auto px-6">
-                    <h1 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight">{t("title")}</h1>
-                    <p className="text-xl text-slate-400 max-w-2xl leading-relaxed">
+                <div className="max-w-7xl mx-auto px-6 text-center md:text-left">
+                    <h1 className="text-3xl md:text-6xl font-bold font-heading mb-6 tracking-tight">{t("title")}</h1>
+                    <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto md:mx-0 leading-relaxed">
                         {t("description")}
                     </p>
                 </div>
