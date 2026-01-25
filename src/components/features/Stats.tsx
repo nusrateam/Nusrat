@@ -14,7 +14,7 @@ export function Stats() {
     ];
 
     return (
-        <div className="py-12 border-y border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
+        <div className="py-12 border-y border-slate-200 dark:border-slate-800 bg-background/50">
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
                 {stats.map((stat, idx) => (
                     <motion.div

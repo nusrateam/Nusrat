@@ -33,17 +33,17 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="h-40 md:h-48 bg-primary rounded-2xl flex items-center justify-center p-4 md:p-6 text-white text-center font-bold text-sm md:text-base">
+          <div className="grid grid-cols-2 gap-4 md:gap-8">
+            <div className="h-40 md:h-56 bg-primary rounded-3xl flex flex-col items-center justify-center p-4 md:p-8 text-white text-center font-bold text-sm md:text-xl shadow-xl shadow-primary/20 transform hover:-translate-y-1 transition-transform">
               {h("services.scalable")}
             </div>
-            <div className="h-40 md:h-48 bg-secondary rounded-2xl md:translate-y-8 flex items-center justify-center p-4 md:p-6 text-white text-center font-bold shadow-lg shadow-secondary/20 text-sm md:text-base">
+            <div className="h-40 md:h-56 bg-secondary rounded-3xl md:translate-y-12 flex flex-col items-center justify-center p-4 md:p-8 text-white text-center font-bold shadow-xl shadow-secondary/20 text-sm md:text-xl transform hover:-translate-y-1 transition-transform">
               {h("services.ai")}
             </div>
-            <div className="h-40 md:h-48 bg-slate-800 dark:bg-slate-950 rounded-2xl flex items-center justify-center p-4 md:p-6 text-white text-center font-bold text-sm md:text-base shadow-xl">
+            <div className="h-40 md:h-56 bg-slate-900 dark:bg-black rounded-3xl flex flex-col items-center justify-center p-4 md:p-8 text-white text-center font-bold text-sm md:text-xl shadow-xl transform hover:-translate-y-1 transition-transform">
               {h("services.growth")}
             </div>
-            <div className="h-40 md:h-48 bg-primary rounded-2xl md:translate-y-8 flex items-center justify-center p-4 md:p-6 text-white text-center font-bold shadow-lg shadow-primary/20 text-sm md:text-base">
+            <div className="h-40 md:h-56 bg-primary rounded-3xl md:translate-y-12 flex flex-col items-center justify-center p-4 md:p-8 text-white text-center font-bold shadow-xl shadow-primary/20 text-sm md:text-xl transform hover:-translate-y-1 transition-transform">
               {h("services.seo")}
             </div>
           </div>
