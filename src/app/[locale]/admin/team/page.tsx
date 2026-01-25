@@ -52,7 +52,7 @@ export default function AdminTeamPage() {
                     <Card key={member.id} className="group relative overflow-hidden">
                         <CardHeader className="pb-4">
                             <div className="flex items-start justify-between">
-                                <div className="w-16 h-16 bg-slate-100 dark:bg-slate-800 rounded-2xl flex items-center justify-center text-slate-400 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                                <div className="w-16 h-16 bg-slate-50 dark:bg-slate-800 rounded-2xl flex items-center justify-center text-slate-400 group-hover:bg-primary/10 group-hover:text-primary transition-colors border border-slate-100 dark:border-slate-800/50">
                                     <Shield size={32} />
                                 </div>
                                 <button className="p-2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
@@ -69,10 +69,10 @@ export default function AdminTeamPage() {
                                 {member.bio}
                             </p>
                             <div className="flex flex-wrap gap-2">
-                                <span className="px-2 py-0.5 bg-slate-100 dark:bg-slate-800 text-[10px] font-bold text-slate-600 dark:text-slate-400 rounded uppercase tracking-tighter">
+                                <span className="px-2 py-0.5 bg-slate-50 dark:bg-slate-800 text-[10px] font-bold text-slate-600 dark:text-slate-400 rounded-lg uppercase tracking-tighter border border-slate-100 dark:border-slate-800">
                                     {member.access}
                                 </span>
-                                <span className={`px-2 py-0.5 text-[10px] font-bold rounded uppercase tracking-tighter ${member.status === "Faol" ? "bg-green-100 text-green-600" : "bg-orange-100 text-orange-600"
+                                <span className={`px-2 py-0.5 text-[10px] font-bold rounded-lg uppercase tracking-tighter ${member.status === "Faol" ? "bg-green-100/50 dark:bg-green-900/20 text-green-600 dark:text-green-400" : "bg-orange-100/50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400"
                                     }`}>
                                     {member.status}
                                 </span>

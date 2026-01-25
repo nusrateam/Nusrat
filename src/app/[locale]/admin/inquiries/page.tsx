@@ -45,8 +45,8 @@ export default function InquiriesPage() {
                     </Card>
                 ) : (
                     inquiries.map((inquiry) => (
-                        <Card key={inquiry.id}>
-                            <CardHeader className="flex flex-row items-center justify-between pb-2 bg-slate-50 dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800">
+                        <Card key={inquiry.id} className="overflow-hidden border border-slate-100 dark:border-slate-800 shadow-sm">
+                            <CardHeader className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 bg-slate-50/50 dark:bg-slate-800/20 border-b border-slate-100 dark:border-slate-800">
                                 <div className="flex gap-4">
                                     <div className="flex items-center gap-2 text-sm font-bold text-slate-700 dark:text-slate-300">
                                         <User size={16} />

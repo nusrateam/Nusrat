@@ -26,7 +26,7 @@ export default function AdminBlogPage() {
                 </div>
                 <div className="flex gap-3">
                     <Link href="/admin/ai-assistant">
-                        <Button variant="outline" className="flex items-center gap-2 text-primary border-primary/20 hover:bg-primary/5">
+                        <Button variant="outline" className="flex items-center gap-2 text-primary border-primary/20 hover:bg-primary/5 dark:text-blue-400 dark:border-blue-900/50">
                             <Sparkles size={18} />
                             SI bilan yozish
                         </Button>
@@ -38,41 +38,41 @@ export default function AdminBlogPage() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <Card className="bg-primary/5 border-primary/10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                <Card className="bg-primary/10 dark:bg-primary/5 border-primary/10">
                     <CardContent className="pt-6">
                         <div className="flex items-center gap-4">
-                            <div className="p-3 bg-primary text-white rounded-xl">
+                            <div className="p-3 bg-primary text-white rounded-xl shadow-lg shadow-primary/20">
                                 <PenTool size={24} />
                             </div>
                             <div>
-                                <p className="text-xs font-bold text-slate-500 uppercase tracking-widest">Jami postlar</p>
+                                <p className="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-widest">Jami postlar</p>
                                 <h3 className="text-2xl font-bold">128</h3>
                             </div>
                         </div>
                     </CardContent>
                 </Card>
-                <Card className="bg-green-50 border-green-100">
+                <Card className="bg-green-100/50 dark:bg-green-900/10 border-green-100/50 dark:border-green-900/20">
                     <CardContent className="pt-6">
                         <div className="flex items-center gap-4">
-                            <div className="p-3 bg-green-500 text-white rounded-xl">
+                            <div className="p-3 bg-green-500 text-white rounded-xl shadow-lg shadow-green-500/20">
                                 <CheckCircle2 size={24} />
                             </div>
                             <div>
-                                <p className="text-xs font-bold text-slate-500 uppercase tracking-widest">Nashr qilingan</p>
+                                <p className="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-widest">Nashr qilingan</p>
                                 <h3 className="text-2xl font-bold">115</h3>
                             </div>
                         </div>
                     </CardContent>
                 </Card>
-                <Card className="bg-orange-50 border-orange-100">
+                <Card className="bg-orange-100/50 dark:bg-orange-900/10 border-orange-100/50 dark:border-orange-900/20">
                     <CardContent className="pt-6">
                         <div className="flex items-center gap-4">
-                            <div className="p-3 bg-orange-500 text-white rounded-xl">
+                            <div className="p-3 bg-orange-500 text-white rounded-xl shadow-lg shadow-orange-500/20">
                                 <Clock size={24} />
                             </div>
                             <div>
-                                <p className="text-xs font-bold text-slate-500 uppercase tracking-widest">Qoralamalar</p>
+                                <p className="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-widest">Qoralamalar</p>
                                 <h3 className="text-2xl font-bold">13</h3>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ export default function AdminBlogPage() {
                                 placeholder="Maqolalarni qidiring..."
                                 value={searchQuery}
                                 onChange={(e) => setSearchQuery(e.target.value)}
-                                className="w-full pl-10 pr-4 py-2 bg-slate-50 dark:bg-slate-800 border-none rounded-lg text-sm focus:ring-2 focus:ring-primary/20 outline-none"
+                                className="w-full pl-10 pr-4 py-2 bg-slate-50/50 dark:bg-slate-800/50 border-none rounded-lg text-sm focus:ring-2 focus:ring-primary/20 outline-none"
                             />
                         </div>
                         <Button variant="ghost" size="sm" className="flex items-center gap-2">

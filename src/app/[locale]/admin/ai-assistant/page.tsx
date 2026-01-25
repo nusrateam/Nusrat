@@ -72,7 +72,7 @@ export default function AIAssistantPage() {
                                 value={prompt}
                                 onChange={(e) => setPrompt(e.target.value)}
                                 placeholder={t(`placeholders.${activeTab}`)}
-                                className="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl p-4 text-sm focus:ring-2 focus:ring-secondary/20 outline-none resize-none"
+                                className="w-full bg-slate-50/50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800 rounded-xl p-4 text-sm focus:ring-2 focus:ring-secondary/20 outline-none resize-none"
                             />
                             <div className="mt-6 space-y-4">
                                 <div className="flex items-center justify-between text-xs font-bold text-slate-400 italic">
@@ -86,11 +86,11 @@ export default function AIAssistantPage() {
                         </CardContent>
                     </Card>
 
-                    <div className="bg-slate-100 dark:bg-slate-900 rounded-xl p-6 border border-dashed border-slate-200 dark:border-slate-800">
+                    <div className="bg-slate-50/50 dark:bg-slate-800/20 rounded-xl p-6 border border-dashed border-slate-200 dark:border-slate-800">
                         <h4 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-4">{t("templates")}</h4>
                         <div className="space-y-4">
                             {["project", "blog", "seo"].map((tpl) => (
-                                <button key={tpl} className="w-full text-left p-2 text-xs hover:bg-white dark:hover:bg-slate-800 rounded transition-colors border border-transparent hover:border-slate-200 block">
+                                <button key={tpl} className="w-full text-left p-2 text-xs hover:bg-white dark:hover:bg-slate-800/50 rounded transition-colors border border-transparent hover:border-slate-200 block">
                                     {t(`tpl_${tpl}`)}
                                 </button>
                             ))}

@@ -39,7 +39,7 @@ export default function AdminProjectsPage() {
                                 placeholder="Loyihalarni qidiring..."
                                 value={searchQuery}
                                 onChange={(e) => setSearchQuery(e.target.value)}
-                                className="w-full pl-10 pr-4 py-2 bg-slate-50 dark:bg-slate-800 border-none rounded-lg text-sm focus:ring-2 focus:ring-primary/20 outline-none"
+                                className="w-full pl-10 pr-4 py-2 bg-slate-50/50 dark:bg-slate-800/50 border-none rounded-lg text-sm focus:ring-2 focus:ring-primary/20 outline-none"
                             />
                         </div>
                         <div className="flex gap-2">
@@ -53,7 +53,7 @@ export default function AdminProjectsPage() {
                 <CardContent className="p-0">
                     <div className="overflow-x-auto">
                         <table className="w-full text-left">
-                            <thead className="bg-slate-50 dark:bg-slate-800/50 text-xs font-bold uppercase tracking-widest text-slate-500">
+                            <thead className="bg-slate-100/50 dark:bg-slate-800/50 text-xs font-bold uppercase tracking-widest text-slate-500">
                                 <tr>
                                     <th className="px-6 py-4">Loyiha</th>
                                     <th className="px-6 py-4">Kategoriya</th>

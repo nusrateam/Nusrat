@@ -38,10 +38,10 @@ export default function AdminSEOPage() {
                 <Card>
                     <CardContent className="pt-6">
                         <div className="flex justify-between items-start mb-4">
-                            <div className="p-2 bg-green-100 text-green-600 rounded-lg">
+                            <div className="p-2 bg-green-100/50 dark:bg-green-900/20 text-green-600 dark:text-green-400 rounded-lg">
                                 <BarChart3 size={20} />
                             </div>
-                            <span className="text-[10px] font-bold text-green-500 bg-green-50 px-2 py-1 rounded-full">+2.4%</span>
+                            <span className="text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-100/50 dark:bg-green-900/20 px-2 py-1 rounded-full">+2.4%</span>
                         </div>
                         <h3 className="text-2xl font-bold">92/100</h3>
                         <p className="text-xs text-slate-500 font-bold uppercase tracking-widest mt-1">{"O'rtacha"} SEO balli</p>
@@ -50,10 +50,10 @@ export default function AdminSEOPage() {
                 <Card>
                     <CardContent className="pt-6">
                         <div className="flex justify-between items-start mb-4">
-                            <div className="p-2 bg-blue-100 text-blue-600 rounded-lg">
+                            <div className="p-2 bg-blue-100/50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 rounded-lg">
                                 <Search size={20} />
                             </div>
-                            <span className="text-[10px] font-bold text-blue-500 bg-blue-50 px-2 py-1 rounded-full">+15%</span>
+                            <span className="text-[10px] font-bold text-blue-600 dark:text-blue-400 bg-blue-100/50 dark:bg-blue-900/20 px-2 py-1 rounded-full">+15%</span>
                         </div>
                         <h3 className="text-2xl font-bold">14.2k</h3>
                         <p className="text-xs text-slate-500 font-bold uppercase tracking-widest mt-1">Oylik Organik Kliklar</p>
@@ -62,10 +62,10 @@ export default function AdminSEOPage() {
                 <Card>
                     <CardContent className="pt-6">
                         <div className="flex justify-between items-start mb-4">
-                            <div className="p-2 bg-purple-100 text-purple-600 rounded-lg">
+                            <div className="p-2 bg-purple-100/50 dark:bg-purple-900/20 text-purple-600 dark:text-purple-400 rounded-lg">
                                 <Globe size={20} />
                             </div>
-                            <span className="text-[10px] font-bold text-green-500 bg-green-50 px-2 py-1 rounded-full">Yaxshi</span>
+                            <span className="text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-100/50 dark:bg-green-900/20 px-2 py-1 rounded-full">Yaxshi</span>
                         </div>
                         <h3 className="text-2xl font-bold">248</h3>
                         <p className="text-xs text-slate-500 font-bold uppercase tracking-widest mt-1">{"Kalit so'zlar indeksi"}</p>
@@ -74,10 +74,10 @@ export default function AdminSEOPage() {
                 <Card>
                     <CardContent className="pt-6">
                         <div className="flex justify-between items-start mb-4">
-                            <div className="p-2 bg-orange-100 text-orange-600 rounded-lg">
+                            <div className="p-2 bg-orange-100/50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-400 rounded-lg">
                                 <ShieldCheck size={20} />
                             </div>
-                            <span className="text-[10px] font-bold text-orange-500 bg-orange-50 px-2 py-1 rounded-full">7 Xato</span>
+                            <span className="text-[10px] font-bold text-orange-600 dark:text-orange-400 bg-orange-100/50 dark:bg-orange-900/20 px-2 py-1 rounded-full">7 Xato</span>
                         </div>
                         <h3 className="text-2xl font-bold">98%</h3>
                         <p className="text-xs text-slate-500 font-bold uppercase tracking-widest mt-1">Sog'lomlik ko'rsatkichi</p>
@@ -92,7 +92,7 @@ export default function AdminSEOPage() {
                 <CardContent className="p-0">
                     <div className="overflow-x-auto">
                         <table className="w-full text-left">
-                            <thead className="bg-slate-50 dark:bg-slate-800/50 text-xs font-bold uppercase tracking-widest text-slate-500">
+                            <thead className="bg-slate-100/50 dark:bg-slate-800/50 text-xs font-bold uppercase tracking-widest text-slate-500">
                                 <tr>
                                     <th className="px-6 py-4">Sahifa</th>
                                     <th className="px-6 py-4">URL</th>
@@ -122,11 +122,11 @@ export default function AdminSEOPage() {
                                         <td className="px-6 py-4 text-sm font-medium">{page.keywords}</td>
                                         <td className="px-6 py-4">
                                             {page.issues > 0 ? (
-                                                <span className="text-xs font-bold text-orange-500 bg-orange-50 px-2 py-1 rounded-full">
+                                                <span className="text-xs font-bold text-orange-600 dark:text-orange-400 bg-orange-100/50 dark:bg-orange-900/20 px-2 py-1 rounded-full">
                                                     {page.issues} ta topildi
                                                 </span>
                                             ) : (
-                                                <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-1 rounded-full">
+                                                <span className="text-xs font-bold text-green-600 dark:text-green-400 bg-green-100/50 dark:bg-green-900/20 px-2 py-1 rounded-full">
                                                     {"Muammo yo'q"}
                                                 </span>
                                             )}
