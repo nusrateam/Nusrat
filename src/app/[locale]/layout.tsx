@@ -46,7 +46,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning>
       <body className={cn(
-        "min-h-screen bg-white dark:bg-slate-950 font-sans antialiased",
+        "min-h-screen font-sans antialiased",
         inter.variable,
         poppins.variable
       )}>

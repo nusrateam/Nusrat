@@ -9,7 +9,7 @@ export function Hero() {
     const t = useTranslations("Hero");
 
     return (
-        <div className="relative pt-32 pb-20 overflow-hidden bg-white dark:bg-slate-900">
+        <div className="relative pt-32 pb-20 overflow-hidden bg-background">
             <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-[600px] h-[600px] bg-secondary/10 rounded-full blur-3xl" />
             <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-[400px] h-[400px] bg-primary/10 rounded-full blur-3xl" />
 

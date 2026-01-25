@@ -40,7 +40,7 @@ export default function Home() {
             <div className="h-40 md:h-48 bg-secondary rounded-2xl md:translate-y-8 flex items-center justify-center p-4 md:p-6 text-white text-center font-bold shadow-lg shadow-secondary/20 text-sm md:text-base">
               {h("services.ai")}
             </div>
-            <div className="h-40 md:h-48 bg-slate-900 rounded-2xl flex items-center justify-center p-4 md:p-6 text-white text-center font-bold text-sm md:text-base">
+            <div className="h-40 md:h-48 bg-slate-800 dark:bg-slate-950 rounded-2xl flex items-center justify-center p-4 md:p-6 text-white text-center font-bold text-sm md:text-base shadow-xl">
               {h("services.growth")}
             </div>
             <div className="h-40 md:h-48 bg-primary rounded-2xl md:translate-y-8 flex items-center justify-center p-4 md:p-6 text-white text-center font-bold shadow-lg shadow-primary/20 text-sm md:text-base">

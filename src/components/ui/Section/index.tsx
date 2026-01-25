@@ -9,9 +9,9 @@ const Section = forwardRef<HTMLElement, SectionProps>(
     ({ className, variant = "default", children, ...props }, ref) => {
         const variants = {
             default: "bg-background",
-            muted: "bg-slate-50 dark:bg-slate-900",
+            muted: "bg-slate-50/50 dark:bg-slate-900/50",
             primary: "bg-primary text-white",
-            dark: "bg-slate-900 text-white",
+            dark: "bg-slate-950 text-white",
         };
 
         return (
