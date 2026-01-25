@@ -40,7 +40,7 @@ export default function AdminDashboard() {
                             <div className={stat.color}>
                                 <stat.icon size={24} />
                             </div>
-                            <span className="text-xs font-bold text-green-500 bg-green-50 px-2 py-1 rounded-full">+4%</span>
+                            <span className="text-xs font-bold text-green-600 dark:text-green-400 bg-green-100/50 dark:bg-green-900/20 px-2 py-1 rounded-full">+4%</span>
                         </CardHeader>
                         <CardContent>
                             <h3 className="text-2xl font-bold mb-1">{stat.value}</h3>
@@ -75,15 +75,15 @@ export default function AdminDashboard() {
                         <h2 className="text-xl font-bold font-heading">{t("aiTips.title")}</h2>
                     </CardHeader>
                     <CardContent className="space-y-4">
-                        <div className="p-4 bg-primary/5 rounded-xl border border-primary/10">
-                            <p className="text-sm text-primary font-bold mb-2 tracking-tight">{t("aiTips.strategyTitle")}</p>
-                            <p className="text-xs text-slate-600 dark:text-slate-400">
+                        <div className="p-4 bg-primary/10 dark:bg-primary/5 rounded-xl border border-primary/20 dark:border-primary/10">
+                            <p className="text-sm text-primary dark:text-blue-400 font-bold mb-2 tracking-tight">{t("aiTips.strategyTitle")}</p>
+                            <p className="text-xs text-slate-700 dark:text-slate-400">
                                 {t("aiTips.strategyDesc")}
                             </p>
                         </div>
-                        <div className="p-4 bg-secondary/5 rounded-xl border border-secondary/10">
-                            <p className="text-sm text-secondary font-bold mb-2 tracking-tight">{t("aiTips.seoTitle")}</p>
-                            <p className="text-xs text-slate-600 dark:text-slate-400">
+                        <div className="p-4 bg-secondary/10 dark:bg-secondary/5 rounded-xl border border-secondary/20 dark:border-secondary/10">
+                            <p className="text-sm text-secondary dark:text-emerald-400 font-bold mb-2 tracking-tight">{t("aiTips.seoTitle")}</p>
+                            <p className="text-xs text-slate-700 dark:text-slate-400">
                                 {t("aiTips.seoDesc")}
                             </p>
                         </div>

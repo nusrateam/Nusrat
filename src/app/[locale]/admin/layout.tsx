@@ -29,9 +29,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     return (
-        <div className="flex min-h-screen bg-slate-50 dark:bg-slate-950">
+        <div className="flex min-h-screen bg-background text-foreground transition-colors duration-300">
             {/* Mobile Header */}
-            <header className="md:hidden fixed top-0 w-full z-40 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 h-16 flex items-center justify-between px-4">
+            <header className="md:hidden fixed top-0 w-full z-40 bg-card border-b border-slate-200 dark:border-slate-800 h-16 flex items-center justify-between px-4">
                 <Link href="/" className="flex items-center gap-2">
                     <Image src="/logo.png" alt="Logo" width={32} height={32} className="h-8 w-auto dark:invert" />
                     <span className="font-heading font-bold text-primary dark:text-white uppercase">Admin</span>
@@ -54,7 +54,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
 
             {/* Sidebar */}
             <aside className={cn(
-                "w-64 bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 flex flex-col fixed inset-y-0 z-50 transition-transform duration-300 md:translate-x-0",
+                "w-64 bg-card border-slate-200 dark:border-slate-800 flex flex-col fixed inset-y-0 z-50 transition-transform duration-300 md:translate-x-0 outline-none",
                 locale === 'ar'
                     ? (isSidebarOpen ? "translate-x-0" : "translate-x-full") + " right-0 border-l"
                     : (isSidebarOpen ? "translate-x-0" : "-translate-x-full") + " left-0 border-r"
@@ -92,7 +92,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                                     "flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-bold transition-all uppercase tracking-tight",
                                     active
                                         ? "bg-primary text-white shadow-lg shadow-primary/20"
-                                        : "text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
+                                        : "text-slate-600 dark:text-slate-400 hover:bg-slate-100/50 dark:hover:bg-slate-800/50"
                                 )}
                             >
                                 <item.icon size={18} />
@@ -110,7 +110,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 </nav>
 
                 <div className="p-4 mt-auto">
-                    <div className="bg-slate-100 dark:bg-slate-800 rounded-xl p-4 text-xs">
+                    <div className="bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800 rounded-xl p-4 text-xs">
                         <p className="font-bold text-slate-800 dark:text-white mb-1 uppercase">{at("title")} Pro</p>
                         <p className="text-slate-500 mb-3 font-medium">{at("description")}</p>
                         <div className="h-1 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
