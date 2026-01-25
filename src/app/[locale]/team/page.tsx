@@ -19,10 +19,11 @@ export default function TeamPage() {
         <main className="min-h-screen">
             <Navbar />
 
-            <div className="pt-32 pb-12 bg-primary text-white text-center">
-                <div className="max-w-7xl mx-auto px-6">
-                    <h1 className="text-4xl md:text-5xl font-bold font-heading mb-4">{t("title")}</h1>
-                    <p className="text-xl text-slate-300 max-w-2xl mx-auto">
+            <div className="pt-32 pb-12 bg-primary text-white text-center relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary via-blue-800 to-primary/80 opacity-90" />
+                <div className="max-w-7xl mx-auto px-6 relative z-10">
+                    <h1 className="text-4xl md:text-6xl font-bold font-heading mb-4 drop-shadow-sm">{t("title")}</h1>
+                    <p className="text-xl text-blue-100 max-w-2xl mx-auto font-medium">
                         {t("description")}
                     </p>
                 </div>
@@ -31,9 +32,9 @@ export default function TeamPage() {
             <Section>
                 <div className="grid md:grid-cols-4 gap-8">
                     {teamMembers.map((member) => (
-                        <Card key={member.name} className="group text-center hover:shadow-2xl transition-all duration-500 border-slate-100 dark:border-slate-800">
+                        <Card key={member.name} className="group text-center hover:shadow-2xl transition-all duration-500 border-slate-100 dark:border-slate-800 bg-card">
                             <CardHeader>
-                                <div className="w-32 h-32 mx-auto bg-slate-200 dark:bg-slate-800 rounded-full mb-6 relative overflow-hidden ring-4 ring-slate-50 dark:ring-slate-900 group-hover:ring-primary/20 transition-all">
+                                <div className="w-32 h-32 mx-auto bg-slate-50 dark:bg-slate-800 rounded-full mb-6 relative overflow-hidden ring-4 ring-slate-100/50 dark:ring-slate-800 group-hover:ring-primary/20 transition-all shadow-inner">
                                     {(member as any).image ? (
                                         <Image
                                             src={(member as any).image}

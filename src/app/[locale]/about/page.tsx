@@ -21,10 +21,11 @@ export default function AboutPage() {
             <Navbar />
 
             {/* Header */}
-            <div className="pt-32 pb-20 bg-primary text-white text-center">
-                <div className="max-w-7xl mx-auto px-6">
-                    <h1 className="text-4xl md:text-6xl font-bold font-heading mb-6">{t("title")}</h1>
-                    <p className="text-xl text-slate-300 max-w-2xl mx-auto">
+            <div className="pt-32 pb-20 bg-primary text-white text-center relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary via-blue-800 to-primary/80 opacity-90" />
+                <div className="max-w-7xl mx-auto px-6 relative z-10">
+                    <h1 className="text-4xl md:text-7xl font-bold font-heading mb-6 drop-shadow-sm">{t("title")}</h1>
+                    <p className="text-xl text-blue-100 max-w-2xl mx-auto font-medium">
                         {t("description")}
                     </p>
                 </div>
@@ -47,7 +48,7 @@ export default function AboutPage() {
                         </div>
                     </div>
 
-                    <div className="bg-slate-50 dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+                    <div className="bg-card p-8 md:p-12 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xl">
                         <h2 className="text-3xl font-bold font-heading mb-8">{t("valuesTitle")}</h2>
                         <ul className="space-y-6">
                             <li className="flex gap-4">
@@ -65,10 +66,10 @@ export default function AboutPage() {
                                 </div>
                             </li>
                             <li className="flex gap-4">
-                                <div className="w-12 h-12 bg-slate-900 text-white rounded-lg flex items-center justify-center font-bold shrink-0">3</div>
+                                <div className="w-12 h-12 bg-slate-800 dark:bg-slate-950 text-white rounded-lg flex items-center justify-center font-bold shrink-0 shadow-lg">3</div>
                                 <div>
                                     <h4 className="font-bold text-lg mb-1">{t("excellenceTitle")}</h4>
-                                    <p className="text-slate-500">{t("excellenceDesc")}</p>
+                                    <p className="text-slate-500 dark:text-slate-400">{t("excellenceDesc")}</p>
                                 </div>
                             </li>
                         </ul>

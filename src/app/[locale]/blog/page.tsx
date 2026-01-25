@@ -69,10 +69,10 @@ export default function BlogPage() {
         <main className="min-h-screen">
             <Navbar />
 
-            <div className="pt-32 pb-12 bg-slate-50 dark:bg-slate-900/50">
+            <div className="pt-32 pb-12 bg-background border-b border-slate-100 dark:border-slate-800">
                 <div className="max-w-7xl mx-auto px-6">
-                    <h1 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-primary">{bt("title")}</h1>
-                    <p className="text-lg text-slate-500">{bt("description")}</p>
+                    <h1 className="text-4xl md:text-6xl font-bold font-heading mb-4 text-primary dark:text-blue-500">{bt("title")}</h1>
+                    <p className="text-lg text-slate-500 dark:text-slate-400 font-medium">{bt("description")}</p>
                 </div>
             </div>
 
@@ -98,7 +98,7 @@ export default function BlogPage() {
                         <input
                             type="text"
                             placeholder={t("search")}
-                            className="w-full pl-10 pr-4 py-2 rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-primary/50"
+                            className="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/50 focus:outline-none focus:ring-2 focus:ring-primary/20 font-medium"
                         />
                     </div>
                 </div>

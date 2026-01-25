@@ -43,10 +43,10 @@ export default async function ProjectDetail({
                 </div>
             </div>
 
-            <Section variant="muted">
+            <Section variant="muted" className="bg-slate-50/50 dark:bg-slate-900/30">
                 <div className="grid md:grid-cols-3 gap-12">
                     <div className="md:col-span-2 space-y-8">
-                        <div className="aspect-video bg-slate-300 dark:bg-slate-800 rounded-3xl overflow-hidden relative shadow-lg">
+                        <div className="aspect-video bg-slate-100 dark:bg-slate-800 rounded-[2.5rem] overflow-hidden relative shadow-2xl border border-slate-200 dark:border-slate-800">
                             <Image
                                 src={`/images/project${id}.png`}
                                 alt={project.title}
@@ -63,7 +63,7 @@ export default async function ProjectDetail({
                     </div>
 
                     <div className="space-y-8">
-                        <div className="bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+                        <div className="bg-card p-8 rounded-[2rem] border border-slate-200 dark:border-slate-800 shadow-xl">
                             <h3 className="text-xl font-bold mb-6">{t("highlights")}</h3>
                             <ul className="space-y-4">
                                 {project.highlights.map((h, idx) => (

@@ -44,12 +44,12 @@ export default async function BlogDetail({
                     <h1 className="text-3xl md:text-5xl font-bold font-heading mb-8 leading-tight">{post.title}</h1>
 
                     <div className="flex items-center gap-3 mb-10">
-                        <div className="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-slate-500">
+                        <div className="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-500 border border-slate-200 dark:border-slate-700 shadow-sm">
                             <User size={20} />
                         </div>
                         <div>
-                            <p className="text-sm font-bold text-slate-900 dark:text-white">{post.author}</p>
-                            <p className="text-xs text-slate-500">Author</p>
+                            <p className="text-sm font-bold text-slate-900 dark:text-white leading-none mb-1">{post.author}</p>
+                            <p className="text-[10px] font-bold text-primary dark:text-blue-400 uppercase tracking-widest leading-none">Author</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ export default async function BlogDetail({
 
             <Section className="pt-0">
                 <div className="max-w-4xl mx-auto">
-                    <div className="aspect-video bg-slate-200 dark:bg-slate-800 rounded-3xl overflow-hidden relative shadow-lg mb-12">
+                    <div className="aspect-video bg-slate-100 dark:bg-slate-800 rounded-[2rem] overflow-hidden relative shadow-2xl mb-12 border border-slate-200 dark:border-slate-800">
                         <Image
                             src={post.image}
                             alt={post.title}
